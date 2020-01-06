@@ -14,4 +14,4 @@
 - Why did scientists set out to determine the reference genome?
 - What are three (3) important things we learned from the human genome project (HGP)
 - What is a SNP? Why do we care about them?
-- What is 'genome assembly'?
+- What is ‘genome assembly’?
