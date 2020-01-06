@@ -4,7 +4,7 @@ What drives human genetic variation?
 |Week  | General Plan  | Readings   | 
 |---|:---|:---|
 | 01 | Introduction to Domain Problem   | NA   | 
-| 02 | Data Generating Process (context)  | https://github.com/ShanEllis/Genetic-Variation/tree/master/02_background  |
+| 02 | Data Generating Process (context)  | [02_background](https://github.com/ShanEllis/Genetic-Variation/tree/master/02_background)  |
 | 03 | Description of Data   | |
 | 04 | Domain-Specific Techniques (Part I)  |   | 
 | 05 | Domain-Specific Techniques (Part II)  |   |
