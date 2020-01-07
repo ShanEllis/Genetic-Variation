@@ -16,4 +16,4 @@
 - What is a SNP? Why do we care about them?
 - What is 'genome assembly'?
 
-### Discussion Question Responses: [week 2: data](https://docs.google.com/forms/d/e/1FAIpQLSd5acD89-quIEUE935cinUB0ovZbGER85hEEt-1wZq6bNUdqg/viewform?usp=sf_link)
+### Discussion Question Responses: [Week 2 Form](https://docs.google.com/forms/d/e/1FAIpQLSd5acD89-quIEUE935cinUB0ovZbGER85hEEt-1wZq6bNUdqg/viewform?usp=sf_link)

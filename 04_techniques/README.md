@@ -10,3 +10,4 @@
 - What are their uses? limitations?
 - What is genotyping and how are microarrays used for genotyping?
 
+### Discussion Question Responses: [Week 4 Form](https://docs.google.com/forms/d/e/1FAIpQLSe_nShh5FMiryYN-d8JDyrQ_aKy4fpNwSVnGbO5edW-lftR7Q/viewform?usp=sf_link)
