@@ -19,3 +19,10 @@ What drives human genetic variation?
 * Wed 4-5 PM
 * Thurs 10:30-11:30 AM
 * Location: CSB 243
+
+## Data
+
+There are many genetic datasets available from across the world. 
+
+- The project will primarily use [1000 Genomes Project](https://www.internationalgenome.org/) data
+- We will be replicating a result from [Genes Mirror Geography within Europe](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735096/)
