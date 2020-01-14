@@ -17,3 +17,7 @@
 - What is 'genome assembly'?
 
 ### Discussion Question Responses: [Week 2 Form](https://docs.google.com/forms/d/e/1FAIpQLSd5acD89-quIEUE935cinUB0ovZbGER85hEEt-1wZq6bNUdqg/viewform?usp=sf_link)
+
+### Discussion Question Summary: [Week 2](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/02_background/discussion_week2.html)
+
+
