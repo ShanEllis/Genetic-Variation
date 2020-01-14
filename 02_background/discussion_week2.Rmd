@@ -1,0 +1,72 @@
+---
+title: 'Week 2: Discussion'
+author: "DSC 180A - Genetics"
+date: "`r format(Sys.time(), '%Y/%m/%d')`"
+output:
+  html_document:
+    theme: cosmo
+    number_sections: yes
+    toc: yes
+    toc_float: true
+    toc_depth: 3
+---
+
+All student responses are included for each question. Responses have been randomized within question. Questions with particularly strong responses are indicated with a leading **. (This does not mean the other responses were/are wrong or not good, just trying to highlight a few answers for each question to help students out.)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = FALSE)
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(googlesheets4)
+options(gargle_oauth_email = "sellis@ucsd.edu")
+```
+
+```{r}
+df <- read_sheet("1wKeS5_kYsCnFRt9SiRydX5meAqCpqvH0SsRJRi4-kyM") 
+
+create_table <- function(x, n, seed){
+  # randomize table order
+  set.seed(seed)
+  order <- sample(nrow(x))
+  
+  # generate output in randomm order
+  x %>% 
+  select(n) %>%
+  arrange(order) %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  scroll_box(width = "100%", height = "500px")
+}
+```
+
+# `r colnames(df)[5]`
+
+```{r}
+create_table(df, 5, 1234)
+```
+
+# `r colnames(df)[6]`
+
+```{r}
+create_table(df, 6, 222)
+```
+
+# `r colnames(df)[7]`
+
+```{r}
+create_table(df, 7, 929)
+```
+
+# `r colnames(df)[8]`
+
+```{r}
+create_table(df, 8, 33)
+```
+
+# `r colnames(df)[9]`
+
+```{r}
+create_table(df, 9, 888)
+```
