@@ -31,13 +31,13 @@ create_table <- function(x, n, seed){
   set.seed(seed)
   order <- sample(nrow(x))
   
-  # generate output in randomm order
+  # generate output in random order
   x %>% 
-  select(n) %>%
-  arrange(order) %>%
-  kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
-  scroll_box(width = "100%", height = "500px")
+    select(n) %>%
+    arrange(order) %>%
+    kable() %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+    scroll_box(width = "100%", height = "500px")
 }
 ```
 
