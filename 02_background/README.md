@@ -20,5 +20,5 @@
 
 - [Week 2 Form](https://docs.google.com/forms/d/e/1FAIpQLSd5acD89-quIEUE935cinUB0ovZbGER85hEEt-1wZq6bNUdqg/viewform?usp=sf_link)
 - [Week 2 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/02_background/discussion_week2.html)
-- [In-Class Notes](Coming Soon)
+- [Discussion Slides](https://github.com/ShanEllis/Genetic-Variation/tree/master/02_background/02_background.pdf)
 
