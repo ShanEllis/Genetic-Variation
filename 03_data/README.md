@@ -14,4 +14,9 @@
 - What is a haplotype? What is linkage disequilibrium? (will likely have to search beyond the paper for this one)
 - What are three (3) lessons you learned from reading the 1000G paper?  
 
-### Discussion Question Responses: [Week 3 Form](https://docs.google.com/forms/d/e/1FAIpQLSfoRSseP3aVblTN9_JSz0D051ReGzSlY0CLLR2c0CKISN4Oww/viewform?usp=sf_link)
+### Discussion Questions
+
+- [Week 3 Form](https://docs.google.com/forms/d/e/1FAIpQLSfoRSseP3aVblTN9_JSz0D051ReGzSlY0CLLR2c0CKISN4Oww/viewform?usp=sf_link)
+- [Week 3 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/03_data/discussion_week3.html)
+- [Discussion Slides](Coming Soon)
+
