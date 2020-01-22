@@ -15,10 +15,10 @@ What drives human genetic variation?
 | 09 | Related Questions in the Domain | NA  | 
 | 10 | Proposals (Elevator Pitch  | NA   | 
 
-## Domain Hours (to replace Friday hours; begins wk 2)
+## Domain Hours (to replace Friday hours)
 * Wed 4-5 PM
 * Thurs 10:30-11:30 AM
-* Location: CSB 243
+* Location: CSB 106
 
 ## Data
 
