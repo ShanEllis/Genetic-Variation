@@ -18,5 +18,5 @@
 
 - [Week 3 Form](https://docs.google.com/forms/d/e/1FAIpQLSfoRSseP3aVblTN9_JSz0D051ReGzSlY0CLLR2c0CKISN4Oww/viewform?usp=sf_link)
 - [Week 3 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/03_data/discussion_week3.html)
-- [Discussion Slides](Coming Soon)
+- [Discussion Slides](https://github.com/ShanEllis/Genetic-Variation/tree/master/03_data/03_data.pdf)
 
