@@ -3,8 +3,11 @@
 ### Assigned Readings [UPDATED: 2020/01/22):
 
 - [GATK (Current Protocols in Bioinformatics, 2013)](https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/0471250953.bi1110s43)
+- **Optional** Reading: [GATK Framework (Nature Genetics, 2011)](https://www.nature.com/articles/ng.806)
+	- Figure 1 may be helpful here
 - **Optional** Reading: [GATK Paper (Genome Research, 2010)](https://genome.cshlp.org/content/20/9/1297.full.pdf+html)
 
+	
 ### Discussion Questions
 
 - What is GATK? What is it used for generally?
