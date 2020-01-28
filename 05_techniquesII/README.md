@@ -2,7 +2,7 @@
 
 ### Assigned Readings:
 
-- [Genes Mirror Geography within Europe (Nature, 2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735096/)
+- [Genes Mirror Geography within Europe (Nature, 2009)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735096/) OR [alternate link](https://www.nature.com/articles/nature07331)
 
 
 ### Discussion Questions
