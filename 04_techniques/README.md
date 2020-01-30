@@ -18,5 +18,5 @@
 
 - [Week 4 Form](https://docs.google.com/forms/d/e/1FAIpQLSe_nShh5FMiryYN-d8JDyrQ_aKy4fpNwSVnGbO5edW-lftR7Q/viewform?usp=sf_link)
 - [Week 4 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/04_techniques/discussion_week4.html)
-- [Discussion Slides](Coming Soon)
+- [Discussion Slides](https://github.com/ShanEllis/Genetic-Variation/tree/master/04_techniques/04_techniques.pdf)
 
