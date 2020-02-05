@@ -1,2 +1,5 @@
 .DS_Store
 *.Rmd
+project/testdata/interim/
+project/testdata/resources/
+project/testdata/vcf/ALL.chr22.shapeit2_integrated_v1a.GRCh38.20181129.phased*
