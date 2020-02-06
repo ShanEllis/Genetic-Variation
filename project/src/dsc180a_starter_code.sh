@@ -2,7 +2,7 @@
 # Docker
 # run using volume
 # path will be to forked on your computer
-docker run -it --name genetics -v /Users/shannonellis/Desktop/Teaching/DSC180A/Genetic-Variation/project/testdata:/data shanellis/dsc180a-genetics:0.2
+docker run -it --name genetics2 -v /Users/shannonellis/Desktop/Teaching/DSC180A/Genetic-Variation/project/testdata:/data shanellis/dsc180a-genetics:0.2
 
 # --------------------- #
 # establish file structure
