@@ -26,3 +26,8 @@ There are many genetic datasets available from across the world.
 
 - The project will primarily use [1000 Genomes Project](https://www.internationalgenome.org/) data
 - We will be replicating a result from [Genes Mirror Geography within Europe](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735096/)
+
+## Assignments
+
+- [Assignment 1 - The Data](https://github.com/ShanEllis/Genetic-Variation/blob/master/assignments/assignment-1.md) (Due Jan 24th, 11:59 PM)
+- [Assignment 2 - EDA](https://github.com/ShanEllis/Genetic-Variation/blob/master/assignments/assignment-2.md) (Due Feb 14th, 11:59 PM)
