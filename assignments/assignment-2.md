@@ -12,7 +12,7 @@ In this assignment you will:
 
 Explain the steps needed to work with the 1000 genomes VCF files. 
 
-You can save yourself time by working with these files that have been included for you directly on the DSMLP server at: `/datasets/dsc180a-wi20-public/Genome/vcf`. 
+You can save yourself time by working with these files that have been included for you directly on the DSMLP server at: `/datasets/dsc180a-wi20-public/Genome/vcf`. (Note: You may have to access this two directories up from your  home directory, depending upon your account: `../../datasets/dsc180a-wi20-public/Genome/vcf`)
 
 This will include (but is not necessarily limited to): 
 
