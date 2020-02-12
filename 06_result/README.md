@@ -1,3 +1,4 @@
+
 o## Week 6: Discussion of Main Result
 
 ### Assigned Readings:
@@ -25,4 +26,4 @@ o## Week 6: Discussion of Main Result
 
 - [Week 6 Form](https://docs.google.com/forms/d/e/1FAIpQLSd_ggSphG3b_zXzhDjYXiDClL2gvlF44PgrEBpLqB_Fp4eWUw/viewform?usp=sf_link)
 - [Week 6 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/06_result/discussion_week6.html)
-- [Discussion Slides](COMING SOON)
+- [Discussion Slides](https://github.com/ShanEllis/Genetic-Variation/tree/master/06_result/06_result.pdf)
