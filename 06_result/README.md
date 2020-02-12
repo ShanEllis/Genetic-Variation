@@ -1,4 +1,4 @@
-## Week 6: Discussion of Main Result
+o## Week 6: Discussion of Main Result
 
 ### Assigned Readings:
 
@@ -21,4 +21,8 @@
 - Generate a diagram/cartoon and label it with text to explain how one NGS technology explained in the reading works.
 - What is whole genome sequencing? How does that differ from exome sequencing?
 
-### Discussion Question Responses: [Week 6 Form](https://docs.google.com/forms/d/e/1FAIpQLSd_ggSphG3b_zXzhDjYXiDClL2gvlF44PgrEBpLqB_Fp4eWUw/viewform?usp=sf_link)
+### Discussion Question Responses:
+
+- [Week 6 Form](https://docs.google.com/forms/d/e/1FAIpQLSd_ggSphG3b_zXzhDjYXiDClL2gvlF44PgrEBpLqB_Fp4eWUw/viewform?usp=sf_link)
+- [Week 6 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/06_result/discussion_week6.html)
+- [Discussion Slides](COMING SOON)
