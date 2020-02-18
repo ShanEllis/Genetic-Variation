@@ -14,7 +14,7 @@
 - What are the different file types GATK works with? For what is each file format used?
 - What are the main capabilities of the GATK software that you anticipate using this quarter (meaning: which will be helpful for what we're trying to do)?
 
-### Discussion Questions
+### Discussion
 
 - [Week 4 Form](https://docs.google.com/forms/d/e/1FAIpQLSe_nShh5FMiryYN-d8JDyrQ_aKy4fpNwSVnGbO5edW-lftR7Q/viewform?usp=sf_link)
 - [Week 4 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/04_techniques/discussion_week4.html)

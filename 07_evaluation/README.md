@@ -12,4 +12,8 @@
 - What is the relationship between self-reported ancestry and genetic ancestry? 
 - What are two (2) things you learned from this reading?
 
-### Discussion Question Responses: [Week 7 Form](https://docs.google.com/forms/d/e/1FAIpQLSc5-dzPIVPR3Se_80iApcTZ-CeZ8OcsASCzsb_06FiXf1jkPQ/viewform?usp=sf_link)
+### Discussion
+
+- [Week 7 Form](https://docs.google.com/forms/d/e/1FAIpQLSc5-dzPIVPR3Se_80iApcTZ-CeZ8OcsASCzsb_06FiXf1jkPQ/viewform?usp=sf_link)
+- [Week 7 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/07_evaluation/discussion_week7.html)
+- [Discussion Slides](COMING SOON)
