@@ -1571,7 +1571,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Week 7: Discussion</h1>
 <h4 class="author">DSC 180A - Genetics</h4>
-<h4 class="date">2020/02/18</h4>
+<h4 class="date">2020/02/19</h4>
 
 </div>
 
@@ -1591,12 +1591,12 @@ What is 23andme?
 <tbody>
 <tr>
 <td style="text-align:left;">
-23andme is a personal genetics company.
+23andme is a company that uses DNA sequencing technology to report an individual’s ancestry and risk for certain diseases, as well as some other information.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-A consumer personal genetics company that collects saliva samples and ancestry/ethnicity information from willing customers in order to track their genetic heritage for them.
+23andMe is a consumer personal genetics company. Their customers participate in research by submitting saliva samples, consenting for data to be used for research, and completing surveys.
 </td>
 </tr>
 <tr>
@@ -1606,7 +1606,7 @@ The 23andMe test uses qualitative genotyping to detect select clinically relevan
 </tr>
 <tr>
 <td style="text-align:left;">
-23andme is a consumer genetics company that takes customers saliva and determines their ancestry. They also do other research with customers genes.
+23andme is a personal genetics company.
 </td>
 </tr>
 <tr>
@@ -1621,7 +1621,7 @@ It is a consumer personal genetics company
 </tr>
 <tr>
 <td style="text-align:left;">
-23andme is a company that uses DNA sequencing technology to report an individual’s ancestry and risk for certain diseases, as well as some other information.
+A genoming company for personal use
 </td>
 </tr>
 <tr>
@@ -1631,12 +1631,12 @@ A consumer personal genetics company who contributed all participants in a study
 </tr>
 <tr>
 <td style="text-align:left;">
-23andMe is a consumer personal genetics company. Their customers participate in research by submitting saliva samples, consenting for data to be used for research, and completing surveys.
+**It is a company that provides personal genetic testing for ancestry and diseases. Customers send their DNA and in exchange for the usage of their DNA for research and payment, they receive a report of ancestry and disease likelihoods.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-23andMe customers take an active role in participating in research by submitting saliva samples, consenting for data to be used for research, and completing surveys, which included questions on ancestry and ethnicity, on state of birth, and current zip code of residence.
+A consumer personal genetics company that collects saliva samples and ancestry/ethnicity information from willing customers in order to track their genetic heritage for them.
 </td>
 </tr>
 <tr>
@@ -1651,12 +1651,17 @@ It is a personal genetics company that specialized in using SNPs data to determi
 </tr>
 <tr>
 <td style="text-align:left;">
-**It is a company that provides personal genetic testing for ancestry and diseases. Customers send their DNA and in exchange for the usage of their DNA for research and payment, they receive a report of ancestry and disease likelihoods.
+23andMe customers take an active role in participating in research by submitting saliva samples, consenting for data to be used for research, and completing surveys, which included questions on ancestry and ethnicity, on state of birth, and current zip code of residence.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
 According to their website, 23andme is the first and only genetic service available directly to you that includes reports that meet FDA standards. This company provides a direct-to-consumer genetic testing service in which customers provide a saliva sample that is laboratory analyzed to generate reports relating to the customer’s ancestry, traits, and genetic predispositions to health-related topics.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+23andme is a consumer genetics company that takes customers saliva and determines their ancestry. They also do other research with customers genes.
 </td>
 </tr>
 <tr>
@@ -1682,6 +1687,31 @@ What data/techniques/approaches were used in this paper? How/why was each used?
 <tbody>
 <tr>
 <td style="text-align:left;">
+Data: From 23AndMe’s consenting customer base, who provided DNA samples and answered questions on ancestry and ethnicity, and where they live/are from. Techniques: - Used 1 of 4 genotyping platforms to perform variant calling, each selecting over 500,000 SNP’s. - To determine ancestry, used ‘string kernel support vector machines classifier to assign ancestry labels to short local phased genomic regions.’ Feed these features to an ‘autoregressive pair hidden Markov model to simultaneously […] produce reconciled local ancestry estimates and confidence scores,’ which are then fitted to isotonic regression models.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+**They used high density SNPs genotyped data from 650K to 1M arrays. Data was taken from 23 and me. DNA extraction and genotyping were performed on saliva samples. V1 and V2 platforms used Illumina HumanHap550+ BeadChip. V3 used Illumina OmniExpress+BeadChip. V4 uses a full custom array. Using SVM, they were able to obtain ancestry estimates from the genotyped data.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Genotype data from 23andMe: contains location information (their current zip code) of the individuals Ancestry composition: a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+**There are several different techniques that were used throughout the paper. Machine learning algorithms such as Support Vector Machines or Logistic Regression were used in order to estimate ancestries from genotype data and predicting self-reported ancestry respectively. Additionally, Ancestry Composition was used to identify the ancestral origin of chromosomal segments in admixed people. Of course, a lot of statistics was used to make sure that approaches were sound and that estimates were accurate. Grid search was also used to determine the optimal periods of times of admixture events and proportions of admixture. Surveys were also produced in order to see what people identified themselves as and ultimately compare with the truth.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+The paper used 23andMe genetic data that customers allowed for usage in the research studies. The paper told of how data was obtained through the use of surveys (to obtain ancestry information), logistic regression and modelling using the TRACH and ADMIXTURE modles (for ancestry and SNP analysis), and usage of mtDNA for better ancestry information about areas. In addition to this, zip codes were used to find geographical information, correlations were used to determine similarity to different populations, and more logisitic regression was used to correct for sex biases. The admixture mapping was also done using PCA analysis to split groups better to determine ancestry.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 Genotyping: DNA extraction and genotyping were performed on saliva samples by National Genetics Institute (NGI). SVM: applying a string kernel support vector machine classifier to assign ancestry labels to short local phased genomic regions.
 </td>
 </tr>
@@ -1692,44 +1722,13 @@ Some very common approaches include but not limit to giving out surveys first an
 </tr>
 <tr>
 <td style="text-align:left;">
-Genotyping is used to obtain the basic genetic information of all the participants. Partipants’ saliva were sent to NGI analyzed. Research Cohort were conducted to obtain personal information about each participants like place of birth, race, and residency.<br />
-Ancestry analysis were conducted to accurately identify the ancestral origins of admixed individuals.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-High-density SNP data from 23andMe customers across the U.S. was used “to improve the understanding of the relationship between genetic ancestry and self-reported ethnic and racial identity”. They combined this data with self-reported location data and fed it all into an SVM algorithm to estimate ancestry.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Data: From 23AndMe’s consenting customer base, who provided DNA samples and answered questions on ancestry and ethnicity, and where they live/are from. Techniques: - Used 1 of 4 genotyping platforms to perform variant calling, each selecting over 500,000 SNP’s. - To determine ancestry, used ‘string kernel support vector machines classifier to assign ancestry labels to short local phased genomic regions.’ Feed these features to an ‘autoregressive pair hidden Markov model to simultaneously […] produce reconciled local ancestry estimates and confidence scores,’ which are then fitted to isotonic regression models.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-DNA extraction and genotyping was done on customers saliva. They were genotyped by one of four platforms. V1 and V2 platforms are versions of Illumina HumanHap550+ BeadChip while V3 platform was based on Illumina OmniExpress+ BeadChip with custom content to improve overlap with V2 array. While V4 platform is a custom array. Data that failed to reach a 98.5 percent threshold call rate were reanalyzed. V1 and V2 was used to collect data. V3 was used to improve the overlap with our V2 array. V4 was used to include a lower redundancy subset of V2 and V3 SNPs with additional coverage of lower-frequency coding variation.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-**There are several different techniques that were used throughout the paper. Machine learning algorithms such as Support Vector Machines or Logistic Regression were used in order to estimate ancestries from genotype data and predicting self-reported ancestry respectively. Additionally, Ancestry Composition was used to identify the ancestral origin of chromosomal segments in admixed people. Of course, a lot of statistics was used to make sure that approaches were sound and that estimates were accurate. Grid search was also used to determine the optimal periods of times of admixture events and proportions of admixture. Surveys were also produced in order to see what people identified themselves as and ultimately compare with the truth.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-According to the paper, in terms of data used, the researchers studied the genetic ancestry of 5,269 self-described African Americans, 8,663 Latinos, and 148,789 European Americans who are 23andMe customers and show that the legacy of these historical interactions is visible in the genetic ancestry of present-day Americans. In terms of approaches, DNA extraction and genotyping were performed on saliva samples captured from 23andme. Genotyping was done by National Genetics Institute (NGI), a CLIA-licensed clinical laboratory and a subsidiary of Laboratory Corporation of America. Samples have been genotyped on one of four genotyping platforms (V1, V2, V3, and V4).
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 <p>**To genotype, they used Illumina BeadChip, which is a microarray technology that gives low frequency, wide coverage of SNPs. They use this because it is a relatively cheap way to get highly accurate results for exactly the areas 23andme is interested in.</p>
 They used self-reported surveys to get ethnicity, and geographic location as well as self-reported ancestry. They also use the population data from the available data taken from other samples as well as the data from other projects such as the 1000 Genomes Project to determine what the genetic ancestry of the individual is, i.e. which genetic populations/ethnicities they are the most related to.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-All participants were drawn from the customer base of 23andMe, Inc., a consumer personal genetics company, and then genotyped by saliva samples from the National Genetics Institute. 23andMe customers were invited to fill out web-based questionnaires and allow their genetic data and survey responses to be used for research. Researchers applied Ancestry Composition, a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals. Also, the researchers explore the interaction between genetic ancestry and self-reported identity by estimating the proportion of individuals that identify as African American and European American, partitioned by levels of African ancestry. To test the significance of this relationship, they fit a logistic regression model, using Python’s “statsmodels” package, predicting self-reported ancestry by using proportion African ancestry, sex, age, intercept, and interaction variables.
+Birth, race, and other classifications were extracted using the saliva of the participants. They used self reported data and logistic regression to find significant relationships.
 </td>
 </tr>
 <tr>
@@ -1739,12 +1738,7 @@ This paper used the genetic ancestry of 5,269 self-reported African Americans, 8
 </tr>
 <tr>
 <td style="text-align:left;">
-**They used high density SNPs genotyped data from 650K to 1M arrays. Data was taken from 23 and me. DNA extraction and genotyping were performed on saliva samples. V1 and V2 platforms used Illumina HumanHap550+ BeadChip. V3 used Illumina OmniExpress+BeadChip. V4 uses a full custom array. Using SVM, they were able to obtain ancestry estimates from the genotyped data.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The paper used 23andMe genetic data that customers allowed for usage in the research studies. The paper told of how data was obtained through the use of surveys (to obtain ancestry information), logistic regression and modelling using the TRACH and ADMIXTURE modles (for ancestry and SNP analysis), and usage of mtDNA for better ancestry information about areas. In addition to this, zip codes were used to find geographical information, correlations were used to determine similarity to different populations, and more logisitic regression was used to correct for sex biases. The admixture mapping was also done using PCA analysis to split groups better to determine ancestry.
+DNA extraction and genotyping was done on customers saliva. They were genotyped by one of four platforms. V1 and V2 platforms are versions of Illumina HumanHap550+ BeadChip while V3 platform was based on Illumina OmniExpress+ BeadChip with custom content to improve overlap with V2 array. While V4 platform is a custom array. Data that failed to reach a 98.5 percent threshold call rate were reanalyzed. V1 and V2 was used to collect data. V3 was used to improve the overlap with our V2 array. V4 was used to include a lower redundancy subset of V2 and V3 SNPs with additional coverage of lower-frequency coding variation.
 </td>
 </tr>
 <tr>
@@ -1754,7 +1748,23 @@ DNA extraction and genotyping were performed on saliva samples of 5,269 self-rep
 </tr>
 <tr>
 <td style="text-align:left;">
-Genotype data from 23andMe: contains location information (their current zip code) of the individuals Ancestry composition: a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals
+Genotyping is used to obtain the basic genetic information of all the participants. Partipants’ saliva were sent to NGI analyzed. Research Cohort were conducted to obtain personal information about each participants like place of birth, race, and residency.<br />
+Ancestry analysis were conducted to accurately identify the ancestral origins of admixed individuals.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+All participants were drawn from the customer base of 23andMe, Inc., a consumer personal genetics company, and then genotyped by saliva samples from the National Genetics Institute. 23andMe customers were invited to fill out web-based questionnaires and allow their genetic data and survey responses to be used for research. Researchers applied Ancestry Composition, a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals. Also, the researchers explore the interaction between genetic ancestry and self-reported identity by estimating the proportion of individuals that identify as African American and European American, partitioned by levels of African ancestry. To test the significance of this relationship, they fit a logistic regression model, using Python’s “statsmodels” package, predicting self-reported ancestry by using proportion African ancestry, sex, age, intercept, and interaction variables.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+According to the paper, in terms of data used, the researchers studied the genetic ancestry of 5,269 self-described African Americans, 8,663 Latinos, and 148,789 European Americans who are 23andMe customers and show that the legacy of these historical interactions is visible in the genetic ancestry of present-day Americans. In terms of approaches, DNA extraction and genotyping were performed on saliva samples captured from 23andme. Genotyping was done by National Genetics Institute (NGI), a CLIA-licensed clinical laboratory and a subsidiary of Laboratory Corporation of America. Samples have been genotyped on one of four genotyping platforms (V1, V2, V3, and V4).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+High-density SNP data from 23andMe customers across the U.S. was used “to improve the understanding of the relationship between genetic ancestry and self-reported ethnic and racial identity”. They combined this data with self-reported location data and fed it all into an SVM algorithm to estimate ancestry.
 </td>
 </tr>
 </tbody>
@@ -1762,20 +1772,20 @@ Genotype data from 23andMe: contains location information (their current zip cod
 </div>
 </div>
 <div id="what-is-admixture-why-is-it-important-when-working-with-genetic-data" class="section level1">
-<h1><span class="header-section-number">3</span> What is ADMIXTURE? Why is it important when working with genetic data?</h1>
+<h1><span class="header-section-number">3</span> What is admixture? Why is it important when working with genetic data?</h1>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
-What is ADMIXTURE? Why is it important when working with genetic data?
+What is admixture? Why is it important when working with genetic data?
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-**Admixture is the idea that many individuals in a population have immigrated from other countries/continents (e.g. to America from Europe in the 15/1600s and from Africa during the trans-Atlantic slave trade, as well as very easily in the modern world), and then mixed with that population, so their DNA will therefore display a mixture between the populations that their ancestors have come from.
+ADMIXTURE is a model-based estimation of ancestry proportions that estimates proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions. It’s important because it improves ethnic distribution accuracy
 </td>
 </tr>
 <tr>
@@ -1790,12 +1800,12 @@ A model-based estimation of ancestry proportions, to estimate proportions of Eur
 </tr>
 <tr>
 <td style="text-align:left;">
-In the paper, “population admixture” refers to the mating between individuals with different continental origins, resulting in individuals who carry DNA inherited from multiple populations. ADMIXTURE, which is a model-based estimation of ancestry proportions, was used to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions.
+**Admixture is the idea that many individuals in a population have immigrated from other countries/continents (e.g. to America from Europe in the 15/1600s and from Africa during the trans-Atlantic slave trade, as well as very easily in the modern world), and then mixed with that population, so their DNA will therefore display a mixture between the populations that their ancestors have come from.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-ADMIXTURE: a model-based estimation of ancestry proportions, to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions, important because it improves the accuracy of the overall ethnic distributions
+In the paper, “population admixture” refers to the mating between individuals with different continental origins, resulting in individuals who carry DNA inherited from multiple populations. ADMIXTURE, which is a model-based estimation of ancestry proportions, was used to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions.
 </td>
 </tr>
 <tr>
@@ -1815,22 +1825,12 @@ Admixture is when individuals from two genetically distinguishable groups have c
 </tr>
 <tr>
 <td style="text-align:left;">
-It is when the genes of another population are introduced into another population’s. It is important because it is the source for the proportion of multiple ancestries.
+Admixture refers mating between individuals with different continental origins. It’s important since it can result in individuals who carry DNA inherited from multiple populations.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-“a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets” (Shannon edit: doesn’t have to be software) It can help with analyzing multi-racial genotypes.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Admixture is when groups of people from different continent mix their gene poor together. It is important when working with genetic data because inform us medical studies and personalized medical treatment.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-It is a simple two-event, three-population admixture model to estimate the time frame of admixture events. It is important because researchers were able to use the model to best fit for a pulse admixture event: because they represent an average over more continuous or multiple migrations, initial admixture is likely to have begun earlier.
+“a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets” It can help with analyzing multi-racial genotypes.
 </td>
 </tr>
 <tr>
@@ -1840,7 +1840,22 @@ ADMIXTURE is a genetic model that is used to estimate the proportions of individ
 </tr>
 <tr>
 <td style="text-align:left;">
-Admixture refers mating between individuals with different continental origins. It’s important since it can result in individuals who carry DNA inherited from multiple populations.
+It is a simple two-event, three-population admixture model to estimate the time frame of admixture events. It is important because researchers were able to use the model to best fit for a pulse admixture event: because they represent an average over more continuous or multiple migrations, initial admixture is likely to have begun earlier.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Admixture is when groups of people from different continent mix their gene poor together. It is important when working with genetic data because inform us medical studies and personalized medical treatment.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ADMIXTURE: a model-based estimation of ancestry proportions, to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions, important because it improves the accuracy of the overall ethnic distributions
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+It is when the genes of another population are introduced into another population’s. It is important because it is the source for the proportion of multiple ancestries.
 </td>
 </tr>
 <tr>
@@ -1891,12 +1906,12 @@ Individuals usually identify with the race of the majority of their ancestry.
 </tr>
 <tr>
 <td style="text-align:left;">
-They can be similar to each other, but people can change what they identify as versus what they really are. This causes issues when using self-reported ancestry in data analysis as it causes errors in the data which is why researchers want to find their genetic ancestry to learn more about those population substructures.
+They are more related for some populations and less for others. European Americans showed a 98% European genetic ancestry. African Americans showed 73% African genetic ancestry 24% European genetic ancestry. Latino Americans showed 65% European genetic ancestry, 18% Native American genetic ancestry, and 6% African genetic ancestry. From this, it seems that some genetic ancestries (European) are more closely correlated with self-reported ancestry, while other self-reported ancestries (African, Latino) tend to be more of a mix between different genetic ancestries.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self-reported ancestry has its own labels that genetic ancestry may not use to classify people into populations. Labels that may be the same in genetic ancestry may be different when self-reported due to regional differences. Another thing, is that many people choose to report as from a single identity, even if they may have others.
+They can be similar to each other, but people can change what they identify as versus what they really are. This causes issues when using self-reported ancestry in data analysis as it causes errors in the data which is why researchers want to find their genetic ancestry to learn more about those population substructures.
 </td>
 </tr>
 <tr>
@@ -1916,12 +1931,12 @@ Understanding genetic ancestry of individuals from a self-reported population, a
 </tr>
 <tr>
 <td style="text-align:left;">
-They are more related for some populations and less for others. European Americans showed a 98% European genetic ancestry. African Americans showed 73% African genetic ancestry 24% European genetic ancestry. Latino Americans showed 65% European genetic ancestry, 18% Native American genetic ancestry, and 6% African genetic ancestry. From this, it seems that some genetic ancestries (European) are more closely correlated with self-reported ancestry, while other self-reported ancestries (African, Latino) tend to be more of a mix between different genetic ancestries.
+Self-reportd ancestry is the ancestry a person identify with. Genetic ancestry is the ancestry of a person’s origin. One is more historical based and one is more scientific based. These two can compliment each other in providing valuable information about a person’s ancestry.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self-reported race/ethnicity is frequently used in epidemiological studies to assess an individual’s background origin. However, in admixed populations such as Hispanic, self-reported race/ethnicity may not accurately represent them genetically because they are admixed with European, African and Native American ancestry.
+Self reported ancestry can be completely different than genetic ancestry; a person can report that they are one ethnicity when their genetic ethnicity is something else.
 </td>
 </tr>
 <tr>
@@ -1931,12 +1946,17 @@ Self-reported race/ethnicity is frequently used in epidemiological studies to as
 </tr>
 <tr>
 <td style="text-align:left;">
-The relationship provides insight into the complexity of genetic and social consequences of racial categorization, assortative mating, and the impact of notions of “race” on patterns of mating and self-identity in the US.
+Self-reported ancestry has its own labels that genetic ancestry may not use to classify people into populations. Labels that may be the same in genetic ancestry may be different when self-reported due to regional differences. Another thing, is that many people choose to report as from a single identity, even if they may have others.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self-reportd ancestry is the ancestry a person identify with. Genetic ancestry is the ancestry of a person’s origin. One is more historical based and one is more scientific based. These two can compliment each other in providing valuable information about a person’s ancestry.
+Self-reported race/ethnicity is frequently used in epidemiological studies to assess an individual’s background origin. However, in admixed populations such as Hispanic, self-reported race/ethnicity may not accurately represent them genetically because they are admixed with European, African and Native American ancestry.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+The relationship provides insight into the complexity of genetic and social consequences of racial categorization, assortative mating, and the impact of notions of “race” on patterns of mating and self-identity in the US.
 </td>
 </tr>
 </tbody>
@@ -1972,9 +1992,7 @@ I learned a little about the types of models 23AndMe use to predict ancestries, 
 </tr>
 <tr>
 <td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>Methods/techniques used for these kinds of research</li>
-<li>self-reported ancestry and genetic ancestry can differ greatly
+Many if not most people have European or some Asian ancestry without their reporting it. More and more racial groups are being connected.
 </td>
 </tr>
 <tr>
@@ -1985,16 +2003,15 @@ I learned a little about the types of models 23AndMe use to predict ancestries, 
 </tr>
 <tr>
 <td style="text-align:left;">
-This research paper is bias like a lot of genetic research because most of the participants were from New York or California. These are the locations in which more people take the 23andme analysis. I also learned that genetic can be used to study migration which is very interesting. The admixture of populations can explain an event in history which is fascinating.
+<ol style="list-style-type: decimal">
+<li>Methods/techniques used for these kinds of research</li>
+</ol></li>
+<li>self-reported ancestry and genetic ancestry can differ greatly
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>The importance of terminologies used in the survey was more than my expectation: the precise terminology and labels used for describing self-identity can affect survey results, and care in choice of labels should be utilized.</li>
-</ol></li>
-</ol></li>
-<li>I learned some interesting genetic facts among different races, such as Hispanics.
+This research paper is bias like a lot of genetic research because most of the participants were from New York or California. These are the locations in which more people take the 23andme analysis. I also learned that genetic can be used to study migration which is very interesting. The admixture of populations can explain an event in history which is fascinating.
 </td>
 </tr>
 <tr>
@@ -2032,6 +2049,14 @@ One thing that I learned and found fascinating is how one can trace back admixtu
 </ol>
 <ol start="2" style="list-style-type: decimal">
 <li>It was interesting to read that estimates of proportions of males and females from each ancestral population suggest that under a simple demographic model of admixture, European Americans might have ten times as many female Native American ancestors as male, and African Americans might have four times as many female Native American ancestors as male. Sex bias in ancestry contributions could be due to unbalanced sex ratios in immigration frontier settings, exploitation, or other social factors.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>The importance of terminologies used in the survey was more than my expectation: the precise terminology and labels used for describing self-identity can affect survey results, and care in choice of labels should be utilized.</li>
+</ol></li>
+<li>I learned some interesting genetic facts among different races, such as Hispanics.
 </td>
 </tr>
 <tr>
