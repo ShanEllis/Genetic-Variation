@@ -11,8 +11,8 @@ What drives human genetic variation?
 | 05 | Domain-Specific Techniques (Part II)  | [05_techniquesII](https://github.com/ShanEllis/Genetic-Variation/tree/master/05_techniquesII)   |
 | 06 | Discussion of Main Result  | [06_result](https://github.com/ShanEllis/Genetic-Variation/tree/master/06_result)   | 
 | 07 | Standards for Evaluation in Domain  |  [07_evaluation](https://github.com/ShanEllis/Genetic-Variation/tree/master/07_evaluation)  | 
-| 08 | Impacts and Ethics  | [08_ethics](https://github.com/ShanEllis/Genetic-Variation/tree/master/08_ethics)    |
-| 09 | Related Questions in the Domain | NA  | 
+| 08 | Related Questions in the Domain | NA  | 
+| 09 | Impacts and Ethics  | [09_ethics](https://github.com/ShanEllis/Genetic-Variation/tree/master/09_ethics)    |
 | 10 | Proposals (Elevator Pitch  | NA   | 
 
 ## Domain Hours (to replace Friday hours)
