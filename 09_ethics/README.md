@@ -1,4 +1,4 @@
-## Week 8: Impacts and Ethics 
+## Week 9: Impacts and Ethics 
 
 ### Assigned Readings:
 
@@ -15,4 +15,4 @@
 - Who could benefit/profit from having lots of genetic data? Who could be harmed?
 - If you were in Congress, what would you do to protect against the mismanagement of genetic data?
 
-### Discussion Question Responses: [Week 8 Form](https://docs.google.com/forms/d/e/1FAIpQLSc9T3iVAJodssak9zNWmhCBOOVOCbGE-T1juo-PsaWKDpfEhA/viewform?usp=sf_link)
+### Discussion Question Responses: [Week 9 Form](https://docs.google.com/forms/d/e/1FAIpQLSc9T3iVAJodssak9zNWmhCBOOVOCbGE-T1juo-PsaWKDpfEhA/viewform?usp=sf_link)
