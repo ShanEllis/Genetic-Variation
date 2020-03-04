@@ -19,4 +19,4 @@
 
 - [Week 9 Form](https://docs.google.com/forms/d/e/1FAIpQLSc9T3iVAJodssak9zNWmhCBOOVOCbGE-T1juo-PsaWKDpfEhA/viewform?usp=sf_link)
 - [Week 9 Summary](https://htmlpreview.github.io/?https://github.com/ShanEllis/Genetic-Variation/blob/master/09_ethics/discussion_week9.html)
-- [Discussion Slides](COMING SOON)
+- [Discussion Slides](https://github.com/ShanEllis/Genetic-Variation/tree/master/09_ethics/09_ethics.pdf)
