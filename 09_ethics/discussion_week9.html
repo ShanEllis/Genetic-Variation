@@ -12,7 +12,7 @@
 <meta name="author" content="DSC 180A - Genetics" />
 
 
-<title>Week 7: Discussion</title>
+<title>Week 9: Discussion</title>
 
 <script>/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
 !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l="1.11.3",m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0>a?b:0);return this.pushStack(c>=0&&b>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||m.isFunction(g)||(g={}),h===i&&(g=this,h--);i>h;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&&(j&&c&&(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&&m.isArray(a)?a:[]):f=a&&m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&&(g[d]=c));return g},m.extend({expando:"jQuery"+(l+Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===m.type(a)},isArray:Array.isArray||function(a){return"array"===m.type(a)},isWindow:function(a){return null!=a&&a==a.window},isNumeric:function(a){return!m.isArray(a)&&a-parseFloat(a)+1>=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||"object"!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&&!j.call(a,"constructor")&&!j.call(a.constructor.prototype,"isPrototypeOf"))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?h[i.call(a)]||"object":typeof a},globalEval:function(b){b&&m.trim(b)&&(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.replace(o,"ms-").replace(p,q)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b,c){var d,e=0,f=a.length,g=r(a);if(c){if(g){for(;f>e;e++)if(d=b.apply(a[e],c),d===!1)break}else for(e in a)if(d=b.apply(a[e],c),d===!1)break}else if(g){for(;f>e;e++)if(d=b.call(a[e],e,a[e]),d===!1)break}else for(e in a)if(d=b.call(a[e],e,a[e]),d===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(n,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(r(Object(a))?m.merge(c,"string"==typeof a?[a]:a):f.call(c,a)),c},inArray:function(a,b,c){var d;if(b){if(g)return g.call(b,a,c);for(d=b.length,c=c?0>c?Math.max(0,d+c):c:0;d>c;c++)if(c in b&&b[c]===a)return c}return-1},merge:function(a,b){var c=+b.length,d=0,e=a.length;while(c>d)a[e++]=b[d++];if(c!==c)while(void 0!==b[d])a[e++]=b[d++];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;g>f;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,f=0,g=a.length,h=r(a),i=[];if(h)for(;g>f;f++)d=b(a[f],f,c),null!=d&&i.push(d);else for(f in a)d=b(a[f],f,c),null!=d&&i.push(d);return e.apply([],i)},guid:1,proxy:function(a,b){var c,e,f;return"string"==typeof b&&(f=a[b],b=a,a=f),m.isFunction(a)?(c=d.call(arguments,2),e=function(){return a.apply(b||this,c.concat(d.call(arguments)))},e.guid=a.guid=a.guid||m.guid++,e):void 0},now:function(){return+new Date},support:k}),m.each("Boolean Number String Function Array Date RegExp Object Error".split(" "),function(a,b){h["[object "+b+"]"]=b.toLowerCase()});function r(a){var b="length"in a&&a.length,c=m.type(a);return"function"===c||m.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a}var s=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C=1<<31,D={}.hasOwnProperty,E=[],F=E.pop,G=E.push,H=E.push,I=E.slice,J=function(a,b){for(var c=0,d=a.length;d>c;c++)if(a[c]===b)return c;return-1},K="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",L="[\\x20\\t\\r\\n\\f]",M="(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",N=M.replace("w","w#"),O="\\["+L+"*("+M+")(?:"+L+"*([*^$|!~]?=)"+L+"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|("+N+"))|)"+L+"*\\]",P=":("+M+")(?:\\((('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|((?:\\\\.|[^\\\\()[\\]]|"+O+")*)|.*)\\)|)",Q=new RegExp(L+"+","g"),R=new RegExp("^"+L+"+|((?:^|[^\\\\])(?:\\\\.)*)"+L+"+$","g"),S=new RegExp("^"+L+"*,"+L+"*"),T=new RegExp("^"+L+"*([>+~]|"+L+")"+L+"*"),U=new RegExp("="+L+"*([^\\]'\"]*?)"+L+"*\\]","g"),V=new RegExp(P),W=new RegExp("^"+N+"$"),X={ID:new RegExp("^#("+M+")"),CLASS:new RegExp("^\\.("+M+")"),TAG:new RegExp("^("+M.replace("w","w*")+")"),ATTR:new RegExp("^"+O),PSEUDO:new RegExp("^"+P),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\("+L+"*(even|odd|(([+-]|)(\\d*)n|)"+L+"*(?:([+-]|)"+L+"*(\\d+)|))"+L+"*\\)|)","i"),bool:new RegExp("^(?:"+K+")$","i"),needsContext:new RegExp("^"+L+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+L+"*((?:-\\d)?\\d*)"+L+"*\\)|)(?=[^-]|$)","i")},Y=/^(?:input|select|textarea|button)$/i,Z=/^h\d$/i,$=/^[^{]+\{\s*\[native \w/,_=/^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,aa=/[+~]/,ba=/'|\\/g,ca=new RegExp("\\\\([\\da-f]{1,6}"+L+"?|("+L+")|.)","ig"),da=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:0>d?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ea=function(){m()};try{H.apply(E=I.call(v.childNodes),v.childNodes),E[v.childNodes.length].nodeType}catch(fa){H={apply:E.length?function(a,b){G.apply(a,I.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s,w,x;if((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,d=d||[],k=b.nodeType,"string"!=typeof a||!a||1!==k&&9!==k&&11!==k)return d;if(!e&&p){if(11!==k&&(f=_.exec(a)))if(j=f[1]){if(9===k){if(h=b.getElementById(j),!h||!h.parentNode)return d;if(h.id===j)return d.push(h),d}else if(b.ownerDocument&&(h=b.ownerDocument.getElementById(j))&&t(b,h)&&h.id===j)return d.push(h),d}else{if(f[2])return H.apply(d,b.getElementsByTagName(a)),d;if((j=f[3])&&c.getElementsByClassName)return H.apply(d,b.getElementsByClassName(j)),d}if(c.qsa&&(!q||!q.test(a))){if(s=r=u,w=b,x=1!==k&&a,1===k&&"object"!==b.nodeName.toLowerCase()){o=g(a),(r=b.getAttribute("id"))?s=r.replace(ba,"\\$&"):b.setAttribute("id",s),s="[id='"+s+"'] ",l=o.length;while(l--)o[l]=s+ra(o[l]);w=aa.test(a)&&pa(b.parentNode)||b,x=o.join(",")}if(x)try{return H.apply(d,w.querySelectorAll(x)),d}catch(y){}finally{r||b.removeAttribute("id")}}}return i(a.replace(R,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=a.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&(~b.sourceIndex||C)-(~a.sourceIndex||C);if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function pa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return b?"HTML"!==b.nodeName:!1},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=g.documentElement,e=g.defaultView,e&&e!==e.top&&(e.addEventListener?e.addEventListener("unload",ea,!1):e.attachEvent&&e.attachEvent("onunload",ea)),p=!f(g),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(g.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=$.test(g.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!g.getElementsByName||!g.getElementsByName(u).length}),c.getById?(d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c&&c.parentNode?[c]:[]}},d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){return a.getAttribute("id")===b}}):(delete d.find.ID,d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){return p?b.getElementsByClassName(a):void 0},r=[],q=[],(c.qsa=$.test(g.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'></a><select id='"+u+"-\f]' msallowcapture=''><option selected=''></option></select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+L+"*(?:''|\"\")"),a.querySelectorAll("[selected]").length||q.push("\\["+L+"*(?:value|"+K+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){var b=g.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+L+"*[*^$|!~]?="),a.querySelectorAll(":enabled").length||q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=$.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"div"),s.call(a,"[s!='']:x"),r.push("!=",P)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=$.test(o.compareDocumentPosition),t=b||$.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===g||a.ownerDocument===v&&t(v,a)?-1:b===g||b.ownerDocument===v&&t(v,b)?1:k?J(k,a)-J(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,h=[a],i=[b];if(!e||!f)return a===g?-1:b===g?1:e?-1:f?1:k?J(k,a)-J(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)h.unshift(c);c=b;while(c=c.parentNode)i.unshift(c);while(h[d]===i[d])d++;return d?la(h[d],i[d]):h[d]===v?-1:i[d]===v?1:0},g):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(U,"='$1']"),!(!c.matchesSelector||!p||r&&r.test(b)||q&&q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&D.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:X,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(ca,da),a[3]=(a[3]||a[4]||a[5]||"").replace(ca,da),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return X.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&V.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(ca,da).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+L+")"+a+"("+L+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:b?(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(Q," ")+" ").indexOf(c)>-1:"|="===b?e===c||e.slice(0,c.length+1)===c+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h;if(q){if(f){while(p){l=b;while(l=l[p])if(h?l.nodeName.toLowerCase()===r:1===l.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){k=q[u]||(q[u]={}),j=k[a]||[],n=j[0]===w&&j[1],m=j[0]===w&&j[2],l=n&&q.childNodes[n];while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if(1===l.nodeType&&++m&&l===b){k[a]=[w,n,m];break}}else if(s&&(j=(b[u]||(b[u]={}))[a])&&j[0]===w)m=j[1];else while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if((h?l.nodeName.toLowerCase()===r:1===l.nodeType)&&++m&&(s&&((l[u]||(l[u]={}))[a]=[w,m]),l===b))break;return m-=e,m===d||m%d===0&&m/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=J(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(R,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(ca,da),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return W.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(ca,da).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:function(a){return a.disabled===!1},disabled:function(a){return a.disabled===!0},checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return Z.test(a.nodeName)},input:function(a){return Y.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:oa(function(){return[0]}),last:oa(function(a,b){return[b-1]}),eq:oa(function(a,b,c){return[0>c?c+b:c]}),even:oa(function(a,b){for(var c=0;b>c;c+=2)a.push(c);return a}),odd:oa(function(a,b){for(var c=1;b>c;c+=2)a.push(c);return a}),lt:oa(function(a,b,c){for(var d=0>c?c+b:c;--d>=0;)a.push(d);return a}),gt:oa(function(a,b,c){for(var d=0>c?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function qa(){}qa.prototype=d.filters=d.pseudos,d.setFilters=new qa,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){(!c||(e=S.exec(h)))&&(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=T.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(R," ")}),h=h.slice(c.length));for(g in d.filter)!(e=X[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function ra(a){for(var b=0,c=a.length,d="";c>b;b++)d+=a[b].value;return d}function sa(a,b,c){var d=b.dir,e=c&&"parentNode"===d,f=x++;return b.first?function(b,c,f){while(b=b[d])if(1===b.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j=[w,f];if(g){while(b=b[d])if((1===b.nodeType||e)&&a(b,c,g))return!0}else while(b=b[d])if(1===b.nodeType||e){if(i=b[u]||(b[u]={}),(h=i[d])&&h[0]===w&&h[1]===f)return j[2]=h[2];if(i[d]=j,j[2]=a(b,c,g))return!0}}}function ta(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function ua(a,b,c){for(var d=0,e=b.length;e>d;d++)ga(a,b[d],c);return c}function va(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;i>h;h++)(f=a[h])&&(!c||c(f,d,e))&&(g.push(f),j&&b.push(h));return g}function wa(a,b,c,d,e,f){return d&&!d[u]&&(d=wa(d)),e&&!e[u]&&(e=wa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||ua(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:va(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=va(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?J(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=va(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):H.apply(g,r)})}function xa(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=sa(function(a){return a===b},h,!0),l=sa(function(a){return J(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];f>i;i++)if(c=d.relative[a[i].type])m=[sa(ta(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;f>e;e++)if(d.relative[a[e].type])break;return wa(i>1&&ta(m),i>1&&ra(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(R,"$1"),c,e>i&&xa(a.slice(i,e)),f>e&&xa(a=a.slice(e)),f>e&&ra(a))}m.push(c)}return ta(m)}function ya(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,m,o,p=0,q="0",r=f&&[],s=[],t=j,u=f||e&&d.find.TAG("*",k),v=w+=null==t?1:Math.random()||.1,x=u.length;for(k&&(j=g!==n&&g);q!==x&&null!=(l=u[q]);q++){if(e&&l){m=0;while(o=a[m++])if(o(l,g,h)){i.push(l);break}k&&(w=v)}c&&((l=!o&&l)&&p--,f&&r.push(l))}if(p+=q,c&&q!==p){m=0;while(o=b[m++])o(r,s,g,h);if(f){if(p>0)while(q--)r[q]||s[q]||(s[q]=F.call(i));s=va(s)}H.apply(i,s),k&&!f&&s.length>0&&p+b.length>1&&ga.uniqueSort(i)}return k&&(w=v,j=t),r};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=xa(b[c]),f[u]?d.push(f):e.push(f);f=A(a,ya(e,d)),f.selector=a}return f},i=ga.select=function(a,b,e,f){var i,j,k,l,m,n="function"==typeof a&&a,o=!f&&g(a=n.selector||a);if(e=e||[],1===o.length){if(j=o[0]=o[0].slice(0),j.length>2&&"ID"===(k=j[0]).type&&c.getById&&9===b.nodeType&&p&&d.relative[j[1].type]){if(b=(d.find.ID(k.matches[0].replace(ca,da),b)||[])[0],!b)return e;n&&(b=b.parentNode),a=a.slice(j.shift().value.length)}i=X.needsContext.test(a)?0:j.length;while(i--){if(k=j[i],d.relative[l=k.type])break;if((m=d.find[l])&&(f=m(k.matches[0].replace(ca,da),aa.test(j[0].type)&&pa(b.parentNode)||b))){if(j.splice(i,1),a=f.length&&ra(j),!a)return H.apply(e,f),e;break}}}return(n||h(a,o))(f,b,!p,e,aa.test(a)&&pa(b.parentNode)||b),e},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("div"))}),ja(function(a){return a.innerHTML="<a href='#'></a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){return c?void 0:a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){return c||"input"!==a.nodeName.toLowerCase()?void 0:a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(K,function(a,b,c){var d;return c?void 0:a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);m.find=s,m.expr=s.selectors,m.expr[":"]=m.expr.pseudos,m.unique=s.uniqueSort,m.text=s.getText,m.isXMLDoc=s.isXML,m.contains=s.contains;var t=m.expr.match.needsContext,u=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,v=/^.[^:#\[\.,]*$/;function w(a,b,c){if(m.isFunction(b))return m.grep(a,function(a,d){return!!b.call(a,d,a)!==c});if(b.nodeType)return m.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(v.test(b))return m.filter(b,a,c);b=m.filter(b,a)}return m.grep(a,function(a){return m.inArray(a,b)>=0!==c})}m.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?m.find.matchesSelector(d,a)?[d]:[]:m.find.matches(a,m.grep(b,function(a){return 1===a.nodeType}))},m.fn.extend({find:function(a){var b,c=[],d=this,e=d.length;if("string"!=typeof a)return this.pushStack(m(a).filter(function(){for(b=0;e>b;b++)if(m.contains(d[b],this))return!0}));for(b=0;e>b;b++)m.find(a,d[b],c);return c=this.pushStack(e>1?m.unique(c):c),c.selector=this.selector?this.selector+" "+a:a,c},filter:function(a){return this.pushStack(w(this,a||[],!1))},not:function(a){return this.pushStack(w(this,a||[],!0))},is:function(a){return!!w(this,"string"==typeof a&&t.test(a)?m(a):a||[],!1).length}});var x,y=a.document,z=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,A=m.fn.init=function(a,b){var c,d;if(!a)return this;if("string"==typeof a){if(c="<"===a.charAt(0)&&">"===a.charAt(a.length-1)&&a.length>=3?[null,a,null]:z.exec(a),!c||!c[1]&&b)return!b||b.jquery?(b||x).find(a):this.constructor(b).find(a);if(c[1]){if(b=b instanceof m?b[0]:b,m.merge(this,m.parseHTML(c[1],b&&b.nodeType?b.ownerDocument||b:y,!0)),u.test(c[1])&&m.isPlainObject(b))for(c in b)m.isFunction(this[c])?this[c](b[c]):this.attr(c,b[c]);return this}if(d=y.getElementById(c[2]),d&&d.parentNode){if(d.id!==c[2])return x.find(a);this.length=1,this[0]=d}return this.context=y,this.selector=a,this}return a.nodeType?(this.context=this[0]=a,this.length=1,this):m.isFunction(a)?"undefined"!=typeof x.ready?x.ready(a):a(m):(void 0!==a.selector&&(this.selector=a.selector,this.context=a.context),m.makeArray(a,this))};A.prototype=m.fn,x=m(y);var B=/^(?:parents|prev(?:Until|All))/,C={children:!0,contents:!0,next:!0,prev:!0};m.extend({dir:function(a,b,c){var d=[],e=a[b];while(e&&9!==e.nodeType&&(void 0===c||1!==e.nodeType||!m(e).is(c)))1===e.nodeType&&d.push(e),e=e[b];return d},sibling:function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c}}),m.fn.extend({has:function(a){var b,c=m(a,this),d=c.length;return this.filter(function(){for(b=0;d>b;b++)if(m.contains(this,c[b]))return!0})},closest:function(a,b){for(var c,d=0,e=this.length,f=[],g=t.test(a)||"string"!=typeof a?m(a,b||this.context):0;e>d;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&m.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?m.unique(f):f)},index:function(a){return a?"string"==typeof a?m.inArray(this[0],m(a)):m.inArray(a.jquery?a[0]:a,this):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(m.unique(m.merge(this.get(),m(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function D(a,b){do a=a[b];while(a&&1!==a.nodeType);return a}m.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return m.dir(a,"parentNode")},parentsUntil:function(a,b,c){return m.dir(a,"parentNode",c)},next:function(a){return D(a,"nextSibling")},prev:function(a){return D(a,"previousSibling")},nextAll:function(a){return m.dir(a,"nextSibling")},prevAll:function(a){return m.dir(a,"previousSibling")},nextUntil:function(a,b,c){return m.dir(a,"nextSibling",c)},prevUntil:function(a,b,c){return m.dir(a,"previousSibling",c)},siblings:function(a){return m.sibling((a.parentNode||{}).firstChild,a)},children:function(a){return m.sibling(a.firstChild)},contents:function(a){return m.nodeName(a,"iframe")?a.contentDocument||a.contentWindow.document:m.merge([],a.childNodes)}},function(a,b){m.fn[a]=function(c,d){var e=m.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=m.filter(d,e)),this.length>1&&(C[a]||(e=m.unique(e)),B.test(a)&&(e=e.reverse())),this.pushStack(e)}});var E=/\S+/g,F={};function G(a){var b=F[a]={};return m.each(a.match(E)||[],function(a,c){b[c]=!0}),b}m.Callbacks=function(a){a="string"==typeof a?F[a]||G(a):m.extend({},a);var b,c,d,e,f,g,h=[],i=!a.once&&[],j=function(l){for(c=a.memory&&l,d=!0,f=g||0,g=0,e=h.length,b=!0;h&&e>f;f++)if(h[f].apply(l[0],l[1])===!1&&a.stopOnFalse){c=!1;break}b=!1,h&&(i?i.length&&j(i.shift()):c?h=[]:k.disable())},k={add:function(){if(h){var d=h.length;!function f(b){m.each(b,function(b,c){var d=m.type(c);"function"===d?a.unique&&k.has(c)||h.push(c):c&&c.length&&"string"!==d&&f(c)})}(arguments),b?e=h.length:c&&(g=d,j(c))}return this},remove:function(){return h&&m.each(arguments,function(a,c){var d;while((d=m.inArray(c,h,d))>-1)h.splice(d,1),b&&(e>=d&&e--,f>=d&&f--)}),this},has:function(a){return a?m.inArray(a,h)>-1:!(!h||!h.length)},empty:function(){return h=[],e=0,this},disable:function(){return h=i=c=void 0,this},disabled:function(){return!h},lock:function(){return i=void 0,c||k.disable(),this},locked:function(){return!i},fireWith:function(a,c){return!h||d&&!i||(c=c||[],c=[a,c.slice?c.slice():c],b?i.push(c):j(c)),this},fire:function(){return k.fireWith(this,arguments),this},fired:function(){return!!d}};return k},m.extend({Deferred:function(a){var b=[["resolve","done",m.Callbacks("once memory"),"resolved"],["reject","fail",m.Callbacks("once memory"),"rejected"],["notify","progress",m.Callbacks("memory")]],c="pending",d={state:function(){return c},always:function(){return e.done(arguments).fail(arguments),this},then:function(){var a=arguments;return m.Deferred(function(c){m.each(b,function(b,f){var g=m.isFunction(a[b])&&a[b];e[f[1]](function(){var a=g&&g.apply(this,arguments);a&&m.isFunction(a.promise)?a.promise().done(c.resolve).fail(c.reject).progress(c.notify):c[f[0]+"With"](this===d?c.promise():this,g?[a]:arguments)})}),a=null}).promise()},promise:function(a){return null!=a?m.extend(a,d):d}},e={};return d.pipe=d.then,m.each(b,function(a,f){var g=f[2],h=f[3];d[f[1]]=g.add,h&&g.add(function(){c=h},b[1^a][2].disable,b[2][2].lock),e[f[0]]=function(){return e[f[0]+"With"](this===e?d:this,arguments),this},e[f[0]+"With"]=g.fireWith}),d.promise(e),a&&a.call(e,e),e},when:function(a){var b=0,c=d.call(arguments),e=c.length,f=1!==e||a&&m.isFunction(a.promise)?e:0,g=1===f?a:m.Deferred(),h=function(a,b,c){return function(e){b[a]=this,c[a]=arguments.length>1?d.call(arguments):e,c===i?g.notifyWith(b,c):--f||g.resolveWith(b,c)}},i,j,k;if(e>1)for(i=new Array(e),j=new Array(e),k=new Array(e);e>b;b++)c[b]&&m.isFunction(c[b].promise)?c[b].promise().done(h(b,k,c)).fail(g.reject).progress(h(b,j,i)):--f;return f||g.resolveWith(k,c),g.promise()}});var H;m.fn.ready=function(a){return m.ready.promise().done(a),this},m.extend({isReady:!1,readyWait:1,holdReady:function(a){a?m.readyWait++:m.ready(!0)},ready:function(a){if(a===!0?!--m.readyWait:!m.isReady){if(!y.body)return setTimeout(m.ready);m.isReady=!0,a!==!0&&--m.readyWait>0||(H.resolveWith(y,[m]),m.fn.triggerHandler&&(m(y).triggerHandler("ready"),m(y).off("ready")))}}});function I(){y.addEventListener?(y.removeEventListener("DOMContentLoaded",J,!1),a.removeEventListener("load",J,!1)):(y.detachEvent("onreadystatechange",J),a.detachEvent("onload",J))}function J(){(y.addEventListener||"load"===event.type||"complete"===y.readyState)&&(I(),m.ready())}m.ready.promise=function(b){if(!H)if(H=m.Deferred(),"complete"===y.readyState)setTimeout(m.ready);else if(y.addEventListener)y.addEventListener("DOMContentLoaded",J,!1),a.addEventListener("load",J,!1);else{y.attachEvent("onreadystatechange",J),a.attachEvent("onload",J);var c=!1;try{c=null==a.frameElement&&y.documentElement}catch(d){}c&&c.doScroll&&!function e(){if(!m.isReady){try{c.doScroll("left")}catch(a){return setTimeout(e,50)}I(),m.ready()}}()}return H.promise(b)};var K="undefined",L;for(L in m(k))break;k.ownLast="0"!==L,k.inlineBlockNeedsLayout=!1,m(function(){var a,b,c,d;c=y.getElementsByTagName("body")[0],c&&c.style&&(b=y.createElement("div"),d=y.createElement("div"),d.style.cssText="position:absolute;border:0;width:0;height:0;top:0;left:-9999px",c.appendChild(d).appendChild(b),typeof b.style.zoom!==K&&(b.style.cssText="display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1",k.inlineBlockNeedsLayout=a=3===b.offsetWidth,a&&(c.style.zoom=1)),c.removeChild(d))}),function(){var a=y.createElement("div");if(null==k.deleteExpando){k.deleteExpando=!0;try{delete a.test}catch(b){k.deleteExpando=!1}}a=null}(),m.acceptData=function(a){var b=m.noData[(a.nodeName+" ").toLowerCase()],c=+a.nodeType||1;return 1!==c&&9!==c?!1:!b||b!==!0&&a.getAttribute("classid")===b};var M=/^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,N=/([A-Z])/g;function O(a,b,c){if(void 0===c&&1===a.nodeType){var d="data-"+b.replace(N,"-$1").toLowerCase();if(c=a.getAttribute(d),"string"==typeof c){try{c="true"===c?!0:"false"===c?!1:"null"===c?null:+c+""===c?+c:M.test(c)?m.parseJSON(c):c}catch(e){}m.data(a,b,c)}else c=void 0}return c}function P(a){var b;for(b in a)if(("data"!==b||!m.isEmptyObject(a[b]))&&"toJSON"!==b)return!1;
@@ -1536,7 +1536,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Week 7: Discussion</h1>
+<h1 class="title toc-ignore">Week 9: Discussion</h1>
 <h4 class="author">DSC 180A - Genetics</h4>
 <h4 class="date">2020/03/04</h4>
 
@@ -1544,536 +1544,409 @@ div.tocify {
 
 
 <p>All student responses are included for each question. Responses have been randomized within question. Questions with particularly strong responses are indicated with a leading **. (This does not mean the other responses were/are wrong or not good, just trying to highlight a few answers for each question to help students out.)</p>
-<div id="what-is-23andme" class="section level1">
-<h1><span class="header-section-number">1</span> What is 23andme?</h1>
+<div id="what-bias-exists-in-genetic-studies-why-does-this-matter" class="section level1">
+<h1><span class="header-section-number">1</span> What bias exists in genetic studies? Why does this matter?</h1>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
-What is 23andme?
+What bias exists in genetic studies? Why does this matter?
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-A genoming company for personal use
+A lot of genetic prediction and analyzing is only accurate for white European descent because the lack of other data. This is important because to make precision medication equal for everyone there needs to be equal data collected for everyone too.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-23andMe is a consumer personal genetics company. Their customers participate in research by submitting saliva samples, consenting for data to be used for research, and completing surveys.
+Genetic prediction works better for people of white, European ancestry. The disparity matters for a simple reason: We are developing genetic risk tools that people of color will not benefit from, unless we do genetic risk studies for them too.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**23 and me is a privately owned biotechnology company where customers give a saliva sample that is analyzed and are given information about their ancestry and their predisposition to certain health conditions.
+The genetic studies does not include all ethnic backgrounds. This matters because the results from specification on one group do not generalize well with other groups.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-23andme is a personal genetics company.
+Genetic studies have mostly been conducted on people of European ancestry. This matters because if genetic studies carry over to health care the genetics studies cater mostly to people of European descent. The patterns of genes differ between ethnic groups and the GWAS studies won’t generalize well to non Europeans. Diseases that are more common to non Europeans will be neglected and the health disparity will increase.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-23andme is a consumer genetics company that takes customers saliva and determines their ancestry. They also do other research with customers genes.
+Most genetic studies consist largely of Europeans as the data source.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-a consumer personal genetics company
+Genetic prediction in risk test for certain diseases only work better for people of white, European ancestry, as most participants in the studies that yield predictive insights — genome-wide association studies — are of white European ancestry
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-23andme is a company that uses DNA sequencing technology to report an individual’s ancestry and risk for certain diseases, as well as some other information.
+The bias that exists is that most genetic studies have been conducted primarily on people of white European ancestry. This is of concern because people of other populations may not benefit/get the full benefit of these studies. Also, the article points out that health disparities amongst people of different ancestries can grow due to this issue.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-It is a consumer personal genetics company
+In genetic studies, the study has more data of whites and does not have many data about other ethics. It matters because the result that works for certain ethic does not necessarily work for other ethics.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-It is a personal genetics company that specialized in using SNPs data to determine a person’s lineage and it got more fine-tuned as more customers participated as they had more samples to use.
+**Most participants in the genetic studies that yield predictive insights — genome-wide association studies (or GWAS for short) — are of white European ancestry. This matters because this means that when the risk test for heart disease debuts, the product will only be useful for people of white European ancestry. The ancestral disparity matters for a simple reason: We are developing genetic risk tools that people of color will not benefit from, unless we do genetic risk studies for them too.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**It is a company that provides personal genetic testing for ancestry and diseases. Customers send their DNA and in exchange for the usage of their DNA for research and payment, they receive a report of ancestry and disease likelihoods.
+Most studies are done on European people. The results will not generalize well to other populations, so ‘personalized’ medicine may not be available for everyone.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-23andme is a personal genomics and biotech company. They are widely known for their ancestry/traits tests that allow individual to learn more about their ancestral backgrounds and health. However, much controversy in regard to how 23andme uses the data has occurred in recent times.
+Genetic data is biased towards people with white, European ancestry. This matters because we don’t have as much information on genetic variation and studies done on Europeans don’t general well to other populations.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-The 23andMe test uses qualitative genotyping to detect select clinically relevant variants in the genomic DNA of adults from saliva for the purpose of reporting and interpreting genetic health risks and reporting carrier status. It is not intended to diagnose any disease. Your ethnicity may affect the relevance of each report and how your genetic health risk results are interpreted. Each genetic health risk report describes if a person has variants associated with a higher risk of developing a disease, but does not describe a person’s overall risk of developing the disease.
+**Most participants in genetic studies that show predictive results come from white European ancestry (80% of subjects) yet they only make up a fraction of the real world population. When scientists develop genetic risk tools to help those affected, it will only help those from European ancestry while excluding people of color from medical research. This will only add to the disparity that exists in America’s health care since ethnicities not included in genetic studies might not find a cure that works for them. In order to make predictions about people’s risk factors for a certain trait, studies must choose participants by common ancestry to control for SNPs that have nothing to do with the trait.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-A consumer personal genetics company that collects saliva samples and ancestry/ethnicity information from willing customers in order to track their genetic heritage for them.
+**Sampling bias exists in genetic studies. Most participants in genetic studies are white, so you are getting skewed results that do not represent the population as a whole. This matters, because those who are non-white individuals are not benefiting from personalized medicine. Since all the participants studied are whites, they cannot make accurate predictions for those who are not white. Also, we are missing out on truly understanding the genetic variation that exists among us. Understanding the biology and genetic variation can help us understand diseases more on a biological level.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-A consumer personal genetics company who contributed all participants in a study about the legacy of historical interactions in the genetic ancestry of present-day Americans.
+Genetic studies is more focused specifically on European whites even though they consist of a small proportion of the entire population. This means that prediction technology derived from these studies will not work properly on people of color and thus only effective on already privileged people.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-biotechnology company that could do gene sequencing for individuals to determine their ancestry etc.
+There is a racial bias against people who are not European whites as they are rarely included as a significant part of genetic studies. This results in a lack of genetic variation and SNPs that affect these underrepresented populations so new medicine is not made to benefit them.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-23andMe customers take an active role in participating in research by submitting saliva samples, consenting for data to be used for research, and completing surveys, which included questions on ancestry and ethnicity, on state of birth, and current zip code of residence.
+The high bias is that much of the genetic data is collected and analyzed with white people. Therefore, the problem is that for all others who are not white, they cannot really get benefits from the promise of “precise medicine”. When we don’t do genetics research on diverse populations, we not only risk widening health disparities — we risk missing out on new biology that will help us all.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-According to their website, 23andme is the first and only genetic service available directly to you that includes reports that meet FDA standards. This company provides a direct-to-consumer genetic testing service in which customers provide a saliva sample that is laboratory analyzed to generate reports relating to the customer’s ancestry, traits, and genetic predispositions to health-related topics.
+More samples are from the white people, while they only represent a fraction of the whole human population. It matters because the results from those studies might ignore other races.
 </td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="what-datatechniquesapproaches-were-used-in-this-paper-howwhy-was-each-used" class="section level1">
-<h1><span class="header-section-number">2</span> What data/techniques/approaches were used in this paper? How/why was each used?</h1>
+<div id="if-you-were-in-charge-at-the-nhgri-what-would-you-do-to-help-solve-this-issue" class="section level1">
+<h1><span class="header-section-number">2</span> If you were in charge at the NHGRI, what would you do to help solve this issue?</h1>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
-What data/techniques/approaches were used in this paper? How/why was each used?
+If you were in charge at the NHGRI, what would you do to help solve this issue?
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-This paper used the genetic ancestry of 5,269 self-reported African Americans, 8,663 Latinos, and 148,789 European Americans who are 23andMe customers living across the US, by using high-density SNPs genotype data from 650K to 1M arrays.
+GWASs need to be redone population by population to ensure their generalizability. Just as there is a GWAS study on hundreds of thousands of Europeans to assess genetic risk for heart attacks, there needs to be a study on many people of African origin, East Asian origin, and so on.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-High-density SNP data from 23andMe customers across the U.S. was used “to improve the understanding of the relationship between genetic ancestry and self-reported ethnic and racial identity”. They combined this data with self-reported location data and fed it all into an SVM algorithm to estimate ancestry.
+If I were in charge at the NHGRI, I would propagate more about genetic study in order to let more people know about the genetic studies and get involved in it. Also, I would lower the threshold to enter into the database.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Genotyping: DNA extraction and genotyping were performed on saliva samples by National Genetics Institute (NGI). SVM: applying a string kernel support vector machine classifier to assign ancestry labels to short local phased genomic regions.
+**I would make sure there is funding specifically for each race, and encourage studies for less represented populations. One movement is by the NIH which is to have a long-term diverse genetic study and involve underrepresented populations. Creating studies such as these will also help solve this issue, as more data will become readily available.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Genotype data from 23andMe: contains location information (their current zip code) of the individuals Ancestry composition: a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals
+I’m not sure, but if it’s viable, I might conduct genetic studies of non-European populations.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-admixture; PCA
+If I was in charge at the NHGRI, I would conduct more studies specifically focused on diverse groups of people to add more genetic data from diverse groups of people to hopefully get more products that are usable by diverse groups of people.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-The paper used 23andMe genetic data that customers allowed for usage in the research studies. The paper told of how data was obtained through the use of surveys (to obtain ancestry information), logistic regression and modelling using the TRACH and ADMIXTURE modles (for ancestry and SNP analysis), and usage of mtDNA for better ancestry information about areas. In addition to this, zip codes were used to find geographical information, correlations were used to determine similarity to different populations, and more logisitic regression was used to correct for sex biases. The admixture mapping was also done using PCA analysis to split groups better to determine ancestry.
+Collect more data from races other than white and include them into the major genetic studies.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**They used high density SNPs genotyped data from 650K to 1M arrays. Data was taken from 23 and me. DNA extraction and genotyping were performed on saliva samples. V1 and V2 platforms used Illumina HumanHap550+ BeadChip. V3 used Illumina OmniExpress+BeadChip. V4 uses a full custom array. Using SVM, they were able to obtain ancestry estimates from the genotyped data.
+Require genetic studies to be done using samples consisting of the same racial proportion as the world population does.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-According to the paper, in terms of data used, the researchers studied the genetic ancestry of 5,269 self-described African Americans, 8,663 Latinos, and 148,789 European Americans who are 23andMe customers and show that the legacy of these historical interactions is visible in the genetic ancestry of present-day Americans. In terms of approaches, DNA extraction and genotyping were performed on saliva samples captured from 23andme. Genotyping was done by National Genetics Institute (NGI), a CLIA-licensed clinical laboratory and a subsidiary of Laboratory Corporation of America. Samples have been genotyped on one of four genotyping platforms (V1, V2, V3, and V4).
+I would collect more information from where diverse people are gathered.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Data: From 23AndMe’s consenting customer base, who provided DNA samples and answered questions on ancestry and ethnicity, and where they live/are from. Techniques: - Used 1 of 4 genotyping platforms to perform variant calling, each selecting over 500,000 SNP’s. - To determine ancestry, used ‘string kernel support vector machines classifier to assign ancestry labels to short local phased genomic regions.’ Feed these features to an ‘autoregressive pair hidden Markov model to simultaneously […] produce reconciled local ancestry estimates and confidence scores,’ which are then fitted to isotonic regression models.
+If I were in charge at the NHGRI, in order to help solve this issue I would have all GWAS’s redone population by population (as stated would help in the paper) to ensure correct generalizability. Not every study needs to meet a requirement on how diverse it must be, but each population should have the opportunity to find a cure, therefore every population must have its own result it can refer to when diagnosing patients.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-DNA extraction and genotyping were performed on saliva samples of 5,269 self-reported African Americans, 8,663 Latinos, and 148,789 European Americans who are 23andMe customers living across the US. They were invited to fill out web-based questionnaires, including questions on ancestry and ethnicity, on state of birth, and current zip code of residence. Ancestry Composition applies a string kernel support vector machines classifier to assign ancestry labels to short local phased genomic regions. Scientists apply Ancestry Composition, a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals. Scientists used the lengths of segments of European, African, and Native American ancestry to estimate a best-fit model of admixture history among these populations for African Americans. To estimate the time frame of admixture events, we test a simple two-event, three-population admixture model via TRACTS.47 We use a grid-search optimization to find four optimal parameters for the times of two admixture events and the proportions of admixture. Scientists used ADMIXTURE, a model-based estimation of ancestry proportions, to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions
+If I was in charge of NHGRI, I would solve this issue by offering free genetic testing to minorities as a way to acquire more data. This would help increase the number of diverse samples.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Birth, race, and other classifications were extracted using the saliva of the participants. They used self reported data and logistic regression to find significant relationships.
+I would try and get people in minority groups to participate in biomedical research. I would try and get more genes analysis done on people from different ethnic backgrounds.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Some very common approaches include but not limit to giving out surveys first and let people choose the categories they feel they belong to. The researchers then apply Ancestry Composition, a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals. Ancestry Composition applies a string kernel support vector machines classifier to assign ancestry labels to short local phased genomic regions, which are processed via an autoregressive pair hidden Markov model to simultaneously correct phasing errors and produce reconciled local ancestry estimates and confidence scores based on the initial assignment. In order to generate ancestry segments as defined as continuous blocks of ancestry, researchers estimate the best guess of ancestry at each window to define segments of each ancestry. Assigning the most likely ancestry at each window results in fewer spurious ancestry breaks and allows for a smaller upward bias in admixture dates. They measure segment lengths by using genetic distances, by mapping segment start and end physical positions to the HapMap genetic map. In the study, they also use likelihood estimations and logistic regressions to examine the relationship between self-identity and genetically inferred ancestry.
+Give more funding to research that is done on ethnic groups other than white Europeans in order to incentivize more collection of data on other ethnic groups
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<p>**To genotype, they used Illumina BeadChip, which is a microarray technology that gives low frequency, wide coverage of SNPs. They use this because it is a relatively cheap way to get highly accurate results for exactly the areas 23andme is interested in.</p>
-They used self-reported surveys to get ethnicity, and geographic location as well as self-reported ancestry. They also use the population data from the available data taken from other samples as well as the data from other projects such as the 1000 Genomes Project to determine what the genetic ancestry of the individual is, i.e. which genetic populations/ethnicities they are the most related to.
+Invite a more diverse population and collect genome data from them; get funds from worldwide organization etc.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-All participants were drawn from the customer base of 23andMe, Inc., a consumer personal genetics company, and then genotyped by saliva samples from the National Genetics Institute. 23andMe customers were invited to fill out web-based questionnaires and allow their genetic data and survey responses to be used for research. Researchers applied Ancestry Composition, a three-step pipeline that efficiently and accurately identifies the ancestral origin of chromosomal segments in admixed individuals. Also, the researchers explore the interaction between genetic ancestry and self-reported identity by estimating the proportion of individuals that identify as African American and European American, partitioned by levels of African ancestry. To test the significance of this relationship, they fit a logistic regression model, using Python’s “statsmodels” package, predicting self-reported ancestry by using proportion African ancestry, sex, age, intercept, and interaction variables.
+**If I was in charge at the NHGRI, I would ask researchers to purposely collect more data from minorities and females. I would also encourage people to fund a campaign to allow more people to have their data collected.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**There are several different techniques that were used throughout the paper. Machine learning algorithms such as Support Vector Machines or Logistic Regression were used in order to estimate ancestries from genotype data and predicting self-reported ancestry respectively. Additionally, Ancestry Composition was used to identify the ancestral origin of chromosomal segments in admixed people. Of course, a lot of statistics was used to make sure that approaches were sound and that estimates were accurate. Grid search was also used to determine the optimal periods of times of admixture events and proportions of admixture. Surveys were also produced in order to see what people identified themselves as and ultimately compare with the truth.
+**If I were in charge I would obviously push for the inclusion of more diverse groups in genetic studies. I like the plan behind All of Us so I would put a lot of resources into it and eventually expand it to include more than 1 million people. There are so many different populations around the world and with time these efforts will hopefully prove successful in making genetic studies inclusive to all.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Genotyping is used to obtain the basic genetic information of all the participants. Partipants’ saliva were sent to NGI analyzed. Research Cohort were conducted to obtain personal information about each participants like place of birth, race, and residency.<br />
-Ancestry analysis were conducted to accurately identify the ancestral origins of admixed individuals.
+**I would perform several studies across the world where continents are broken into different regions and each of those regions has their own study conducted on them.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-DNA extraction and genotyping was done on customers saliva. They were genotyped by one of four platforms. V1 and V2 platforms are versions of Illumina HumanHap550+ BeadChip while V3 platform was based on Illumina OmniExpress+ BeadChip with custom content to improve overlap with V2 array. While V4 platform is a custom array. Data that failed to reach a 98.5 percent threshold call rate were reanalyzed. V1 and V2 was used to collect data. V3 was used to improve the overlap with our V2 array. V4 was used to include a lower redundancy subset of V2 and V3 SNPs with additional coverage of lower-frequency coding variation.
+I would crowd fund to allow more people of other color to participate in genetic information collecting.
 </td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="what-is-admixture-why-is-it-important-when-working-with-genetic-data" class="section level1">
-<h1><span class="header-section-number">3</span> What is admixture? Why is it important when working with genetic data?</h1>
+<div id="who-could-benefitprofit-from-having-lots-of-genetic-data-who-could-be-harmed" class="section level1">
+<h1><span class="header-section-number">3</span> Who could benefit/profit from having lots of genetic data? Who could be harmed?</h1>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
-What is admixture? Why is it important when working with genetic data?
+Who could benefit/profit from having lots of genetic data? Who could be harmed?
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-genetic presence of DNA in two for more geometrically distant population.
+The genetic scientists can profit from having lots of genetic data, but the people who provide the genetic data can be harmed from it.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Admixture is when an individual carries DNA inherited from multiple populations. Admixture dating, like discusses in the paper, is a method of gene mapping that uses an admixed population to find the genetic loci that contribute to differences in diseases or other phenotypes found between the different ancestral populations. The method attempts to correlate the degree of ancestry near a genetic locus with the phenotype or disease of interest. African American populations (those with European and African ancestry) are of interest when working with admixture genetic data due to their recent admixture from two populations that were previously genetically isolated for tens of thousands of years.
+Depending on circumstance, genomic information may or may not be considered protected health information under HIPAA. That means sometimes there will be a number of barriers between you or anyone and that information, and other times it will be freely accessible, but in ways that supposedly prevent anyone from knowing whom the data comes from. The landmark Genetic Information Nondiscrimination Act was passed by U.S. Congress in 2008 to prohibit unfair treatment based on DNA information — particularly among health insurance companies — but does not apply to providers of life, disability, or long-term care insurance. Bills introduced since then intend to close those loopholes and establish clear property rules. So, these specific insurance providers could benefit/profit from having lots of genetic data. This means that people who are looking for these kinds of insurance could fall victim to these insurance providers and therefore be harmed by being charged expensive premiums.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**ADMIXTURE is a supervised algorithm used to estimate ancestry proportions such as estimating the proportion of European, Native American, East Asian, etc. If referring to the broader term admixture, then that would be the presence of DNA from different populations that are typically isolated within an individual due to interbreeding between these different populations. This is important when working with genetic data because data is no longer easily differentiable into different groups and could complicate the process of determining associations between genes and things like disease.
+Health insurance companies could benefit from having lots of genetic data. They could charge premiums for those who have a genetic predisposition to certain diseases which could be really harmful for individuals.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-ADMIXTURE is a model-based estimation of ancestry proportions that estimates proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions. It’s important because it improves ethnic distribution accuracy
+Health insurance companies that might discriminate clients based on their genetic makeup, individuals with higher risks to certain conditions
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**Admixture is the idea that many individuals in a population have immigrated from other countries/continents (e.g. to America from Europe in the 15/1600s and from Africa during the trans-Atlantic slave trade, as well as very easily in the modern world), and then mixed with that population, so their DNA will therefore display a mixture between the populations that their ancestors have come from.
+Potential customers of precision medication and scientists would benefit from have a lot of data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**Admixture is a a model-based estimation of ancestry proportions, to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions. It is important cause it allows people to study migration and intermingling. It is also important cause it allows people to see differences between populations and similarities.
+Some health insurance companies could benefit from the data. The people with DNA showing some high percentages for some diseases might be hard to get a health insurance.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-A model-based estimation of ancestry proportions, to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions
+**Any company or business could profit from having lots of genetic data because this could influence who they hire, who they sell to, and where they are located. Sports teams could also benefit from having tons of genetic data since it could decide who they draft and where they tend to recruit. I think anyone could be harmed at the expense of immense genetic data knowledge placed in inappropriate hands, since it can contain very personal details you may not want to know about yourself, much less other people knowing the finest components that make you YOU. If you want your information out there then you may not be harmed by the consequences, but if you do not give permission for businesses/scientists/whoever to access your genome then you could be harmed in so many ways. Like a plethora of possibilities in my head for all the biases that could run rampant in society if knowing everyone’s genetic makeup was the norm.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Admixture refers mating between individuals with different continental origins. It’s important since it can result in individuals who carry DNA inherited from multiple populations.
+Insurance companies may vary their costs based on the health score of their clients’ genetic data. This would hurt the wallets of genetically unhealthy people.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-It is when the genes of another population are introduced into another population’s. It is important because it is the source for the proportion of multiple ancestries.
+Chances are, your physicians or hospital have a stronger ownership claim to that information than you do: they probably keep it in a file and have the authority to grant access to it as needed, whereas you might not even remember what the results were. Until consumers find it important to stake their claim for their own genetic data, this situation is likely to remain the status quo in the coming years. Therefore, physicians and doctors would get benefits while the person who has data from could get harmed the most.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-“a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets” It can help with analyzing multi-racial genotypes.
+A lot of genetic data is beneficial in that it allows researchers to conduct larger and more precise genetic studies. Of course, much like anything else, money will come into play and companies will find a way to profit from genetic data. For example, 23andMe advertises itself as a consumer company but they are arguable a data company that uses the genetic data they receive for profit. I believe that as more and more genetic data is compiled and as it becomes more mainstream, other industries such as insurance companies will try to utilize this. Although there is currently legislation to prevent this, I have a feeling that this will be changed, and genetic data will be used to charge premium or deny people policies. Of course, this fosters genetic discrimination and people could be punished for having ‘poor’ genetic ancestries.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Admixture is when groups of people from different continent mix their gene poor together. It is important when working with genetic data because inform us medical studies and personalized medical treatment.
+Genetic scientist can benefit from having lots of genetic data because they can make it more general to the whole population for having a lot of data. People who contributed their genetics might be harmed because their information might be leaked.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Admixture is when individuals from two genetically distinguishable groups have children together. This can happen due to colonization or migration. It is important when working with genetic data because when individuals from different groups mate, their offspring become a mix of DNA from each group. Genomes of those who descend from this admixed population contains segments of DNA inherited from each of the original source groups.
+Having lots of genetic data could provide better results for those genetics companies when they are doing some researches. However, if data privacy issue is not address properly, each individual will be harmed by the exposure of his/her genetic data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-ADMIXTURE: a model-based estimation of ancestry proportions, to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions, important because it improves the accuracy of the overall ethnic distributions
+**Particularly health insurance companies could have lots of genetic data to provide their customers unfair treatment based on DNA information; Physicians or hospital have a stronger ownership claim to that information than patients do: they probably keep it in a file and have the authority to grant access to it as needed. In return, normal people/patients could be harmed.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-In the paper, “population admixture” refers to the mating between individuals with different continental origins, resulting in individuals who carry DNA inherited from multiple populations. ADMIXTURE, which is a model-based estimation of ancestry proportions, was used to estimate proportions of European, Native American, East Asian, sub-Saharan African, Middle Eastern, and Oceanian ancestry proportions.
+Companies can profit as they can sell that information to pharmaceutical companies and people can benefit as then more specialized drugs are created. While both companies and humans can benefit, only humans can be harmed as companies can use their information without their consent and violate their privacy.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-It is a simple two-event, three-population admixture model to estimate the time frame of admixture events. It is important because researchers were able to use the model to best fit for a pulse admixture event: because they represent an average over more continuous or multiple migrations, initial admixture is likely to have begun earlier.
+People who have lots of data about them benefit from having a lot of research done that could directly help them, but having this skewed data could bias research against other ethnic groups and prevent them from getting technological/scientific improvements that result from these biased studies.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-ADMIXTURE is a genetic model that is used to estimate the proportions of individuals that we want to learn more from. It is useful for genetic data as it allows better understanding of the individual’s origin and then we can use SNPs that are more prominent in their regions to learn something about them.
+**Companies/healthcare businesses would profit from genetic data because they could do research and create new medicine based on peoples data. They would make a lot of money from curing diseases and creating new medicines. People who can be harmed by this data is the common people who might get their data mismanaged and leaked. The leakage of peoples genetic makeup can cause health insurance people to maybe not ensure people because they are prone to illness or something.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Admixture is a model-based estimation of ancestry proportions. It is important when working with genetic data because it results in individuals who carry DNA inherited from multiple populations.
+All biologists could be benefited from the genetic data, as there would be new information to discover, as well as the general population as a whole with new research benefiting them. Some minority groups could be harmed, as their information could be mishandled by those with control to it.
 </td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="what-is-the-relationship-between-self-reported-ancestry-and-genetic-ancestry" class="section level1">
-<h1><span class="header-section-number">4</span> What is the relationship between self-reported ancestry and genetic ancestry?</h1>
+<div id="if-you-were-in-congress-what-would-you-do-to-protect-against-the-mismanagement-of-genetic-data" class="section level1">
+<h1><span class="header-section-number">4</span> If you were in Congress, what would you do to protect against the mismanagement of genetic data?</h1>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
-What is the relationship between self-reported ancestry and genetic ancestry?
+If you were in Congress, what would you do to protect against the mismanagement of genetic data?
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-They are more related for some populations and less for others. European Americans showed a 98% European genetic ancestry. African Americans showed 73% African genetic ancestry 24% European genetic ancestry. Latino Americans showed 65% European genetic ancestry, 18% Native American genetic ancestry, and 6% African genetic ancestry. From this, it seems that some genetic ancestries (European) are more closely correlated with self-reported ancestry, while other self-reported ancestries (African, Latino) tend to be more of a mix between different genetic ancestries.
+Ban sharing of genetic data linked with personal information; allow data to be shared among companies only confidentially.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self-reported race/ethnicity is frequently used in epidemiological studies to assess an individual’s background origin. However, in admixed populations such as Hispanic, self-reported race/ethnicity may not accurately represent them genetically because they are admixed with European, African and Native American ancestry.
+If I were in congress, I would protect genetic data under HIPAA to ensure the privacy and security of the data. I do like the idea of genetic data being stored in one source where the consumer can ask to retrieve information throughout their life instead of having their genetic information being sent around to different lives. I think this would help protect individuals privacy and make their data more secure.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Understanding genetic ancestry of individuals from a self-reported population, and differences in ancestry patterns among regions, can inform medical studies and personalized medical treatment.
+**This question is relatively tricky because I think it is hard to ensure the protection of genetic data. I don’t think it is safe to allow private companies that are not under government regulations/affiliated with the government to have access to such data. I believe genetic data should be treated more like a social security and people should have the absolute right to choose when and how to share it. Ultimately, I would push for legislation that creates strict guidelines on the use of personal genetic data and gives complete ownership to those who it belongs to. However, then figuring out a secure solution to store such data will be difficult. Having genetic data in a database may be too risky as it is vulnerable to bugs and hacking.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Take the relationship between an individual’s genome-wide African ancestry proportion and whether they self-report as European American or African American for example, there is a strong dependence on the amount of African ancestry, with individuals carrying less than 20% African ancestry identifying largely as European American, and those with greater than 50% reporting as African American.
+I’m not sure what laws exist to protect genetic data from being directly traced to individuals, but making sure genetic data is anonymized and stored in a way that it can’t be traced back to specific individuals would be one thing. (Shannon note: This is <em>really</em> hard, as your genetic information is what is typically used to identify in say, criminal investigations. By its very nature it’s identifying. Anonymizing the data is almost impossible. But, I agree this is important…just very very hard.) I don’t think just because you’ve paid someone to collect your genetic data and allowed them to do research on your data means they own your genetic data. For companies like 23andMe, I think they should be required to disclose to people whose data they use in a study that they used their data, and definitely should not be allowed to sell your genetic data to third parties.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-From the paper, although US government census surveys and other studies of households in the US have established fine-scale self-described ethnicity at the state and county level (see the US 2010 Census online), the relationship between genetic ancestry and self-reported ancestry for each region has not been deeply characterized. Understanding genetic ancestry of individuals from a self-reported population and differences in ancestry patterns among regions can inform medical studies and personalized medical treatment. The genetic ancestry of individuals can also shed light on the history of admixture and migrations within different regions of the US, which is relevant to historians and sociologists.
+It seems like the general practice should be, as huffpost suggested, to only sequence relevant DNA for what it’s used for, and to minimize who has access to the data. Or it could be the consumer’s decision whether or not to save the data, rather than have the company save it by default.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self reported ancestry can be completely different than genetic ancestry; a person can report that they are one ethnicity when their genetic ethnicity is something else.
+People who needs further analysis on the personal data needs to have formal consent signed by the owner. We could also implement laws like requesting further data needs to pay extra to the owner of data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self-reportd ancestry is the ancestry a person identify with. Genetic ancestry is the ancestry of a person’s origin. One is more historical based and one is more scientific based. These two can compliment each other in providing valuable information about a person’s ancestry.
+I would give the data ownership back to the person and not the hospitals/companies. I would create laws that would make genomic information be protected under HIPAA. I would also make sure the data isn’t being misused by companies by requiring them to ask for permission before doing anything with a person’s genetic data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-According to the article, it has not been deeply characterized. Self reported ancestry is not a perfect proxy for genetic ancestry. Miss Classifications of health conditions can be avoided by using genetic ancestry. Self reported ancestry can affect survey results. The study used two survey questions to gauge dresponeses about identity.
+**Like stated in the article, I would ensure the data stay in just one location where it can be accessed on a permission-given-by-patient basis. Laws would need to pass to provide security for those who do have their genome information out in the world. No big corporations would be allowed access due to foreseen biases.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self-reported ancestry is when people report their own ancestry. For example if someone believes they are of Irish descent only they would identify themselves as Irish. Genetic ancestry shows where someone is truly from. For example the person could have though they were from Ireland but their ancestry might have really been from Germany. There is a strong relationship between the two but sometimes they do not match.
+I would protect against the mismanagement of genetic data is to put more restriction on people who can access it.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Individuals usually identify with the race of the majority of their ancestry.
+Standardize the process of acquiring and storing data. Initiate some legislation for the usage of genetic data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-The relationship provides insight into the complexity of genetic and social consequences of racial categorization, assortative mating, and the impact of notions of “race” on patterns of mating and self-identity in the US.
+We can have bill to limit insurance company’s control to customers’ personal genetic data. Also hospital needs patients’ agreement to help them store the genetic information privately and safely.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-The probability of self-reporting as African American given a proportion of African ancestry follows a logistic probability curve, suggesting that individuals identify roughly with the majority of their genetic ancestry. Individuals with more than 5% Native American ancestry are most likely to self-identify as Latino, suggesting differences in sociological or historical factors associated with identifying with these groups. The transitions between Latino, African American, and European American self-reported identity by proportions of African and Native American ancestry illustrate both the complexity of how one self identifies as well as the overlapping ancestry profiles among groups.
+I would put higher access for people to get into the database involving the information about people’s information.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**Self-reported ancestry and genetic ancestry don’t always coincide. A lot of the self-reporting is influenced by social biases due to the importance of “race” in today’s society. This is precisely the reason why wording was so important in the surveys developed for the individuals in this study. Ultimately, self-identifying oneself is complex!
+If I was in Congress, I would write a bill to close the loopholes found in the Genetic Information Nondiscrimination Act and establish clear property and genetic data ownership rules that would apply across the US, setting a national standard for genetic data ownership and privacy.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-**We find a much lower estimates of African Ancestry in self-reported ancestry than that of genetic ancestry. In addition, the proportion of European ancestry is still dominant in both self-reported and genetic ancestry.
+Make sure there are regulations in place to prevent discrimination based on genetic data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-They can be similar to each other, but people can change what they identify as versus what they really are. This causes issues when using self-reported ancestry in data analysis as it causes errors in the data which is why researchers want to find their genetic ancestry to learn more about those population substructures.
+I would pass more comprehensive laws that make a company have to ask for permission from the subject to sell their data or use it in other ways besides the storage of that genetic data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-self-reported ancestry: self-reported origin of ancestry based on one’s sex/agr/etc; genetic ancestry: the ancestry indicated by DNA make-up
+**I would file a bill to let teach individual be the owner of its own genetic data. Any companies need to get permission from you to access any information related to your genetic data.
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Self-reported ancestry has its own labels that genetic ancestry may not use to classify people into populations. Labels that may be the same in genetic ancestry may be different when self-reported due to regional differences. Another thing, is that many people choose to report as from a single identity, even if they may have others.
+I would implement strict laws to protect the privacy of each participant, making it illegal to connect genetic information to personal data. Genetic data should only used for medical and research purpose only, other profitable purposes will be banned.
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-</div>
-<div id="what-are-two-2-things-you-learned-from-this-reading-these-were-good-across-the-board-so-no-awarded-here" class="section level1">
-<h1><span class="header-section-number">5</span> What are two (2) things you learned from this reading? (These were good across the board, so no ** “awarded” here)</h1>
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
-What are two (2) things you learned from this reading? (These were good across the board, so no ** “awarded” here)
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>Latino Americans have mostly a European genetic ancestry – this is not all that surprising when I think about it, but I’ve never really though about it :)</li>
-<li>People only consider themselves “European Americans” if they are close to 98% European genetically, which is kind of crazy, compared to Latino Americans who are 65% European genetically. It kind of seems like they would both be considered European Americans if you think about it from a mathematical perspective…
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A person’s ancestry is easier to estimate if they’re just one race. (I think) A person’s racial identity can be affected by their economic class (supposedly - I’m skeptical).
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-I learned a little about the types of models 23AndMe use to predict ancestries, as well as the fact that 23AndMe uses the genetic information it collects from consenting customers to aid research.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>Support Vector Machine-based algorithm is used to infer the population ancestry; this may be improved upon;</li>
-</ol></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
-<li>results are validated against 1000 Genomes Project
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>Regions of the genome that show strong linkage disequilibrium (LD) have been shown both to confound admixture mapping and to influence the detection of population substructure in studies using Principal Components Analysis (PCA). 2.Genome-wide ancestry estimates of African Americans show average proportions of 73.2% African, 24.0% European, and 0.8% Native American ancestry.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>There are millions of people in the US who identify as European ancestry also carry African ancestry.</li>
-</ol></li>
-</ol></li>
-<li>Through genetic evidences, different racial groups are becoming more connected over the year.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-This research paper is bias like a lot of genetic research because most of the participants were from New York or California. These are the locations in which more people take the 23andme analysis. I also learned that genetic can be used to study migration which is very interesting. The admixture of populations can explain an event in history which is fascinating.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>I learned how researchers use methods of asking similar questions in different ways and in a variety of specificity to more accurately determine what the subject’s genetic makeup is versus what they self-reported as. (2) We can use the lengths of the segments of different ancestries to see when they started to mix together and learn through genetics the movement of people over time in a particular region.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Almost everyone tested has European or Asian ancestry at some level even though they did not report themselves as having either European or Asian ancestry. After all the calculations, we have found some co-validation data with 1000 Genome Project data. This work demonstrates that the legacy of population migrations and interactions over the last several hundred years is visible in the genetic ancestry of modern individuals living in the US.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>The importance of terminologies used in the survey was more than my expectation: the precise terminology and labels used for describing self-identity can affect survey results, and care in choice of labels should be utilized.</li>
-</ol></li>
-</ol></li>
-<li>I learned some interesting genetic facts among different races, such as Hispanics.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-One thing that I learned and found fascinating is how one can trace back admixture and ancestry to historical events that happened years ago. I also feel like I learned about myself and where my own ancestry may have come from!
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-One thing I learned from the reading was how the researchers took into account the concept of admixture throughout time, particularly using TRACTS. They used a grid-search optimization to find four optimal parameters for the times of two admixture events and the proportions of admixture. Another thing that I learned from the reading was just how skewed the genetic data set is from 23andMe. Specifically, a small fraction, about 2%, of African Americans carry less than 2% African ancestry, which is far less than typically seen in most African Americans. In addition, the majority of these individuals (88%) have predominantly European ancestry.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>I was surprised to find out that proportionally fewer people identify as mixed race than as a single identity and individuals who self-report as having multiple identities, because this represents only a small fraction of individuals in our data set.</li>
-</ol></li>
-<li>It was interesting to read that estimates of proportions of males and females from each ancestral population suggest that under a simple demographic model of admixture, European Americans might have ten times as many female Native American ancestors as male, and African Americans might have four times as many female Native American ancestors as male. Sex bias in ancestry contributions could be due to unbalanced sex ratios in immigration frontier settings, exploitation, or other social factors.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Many if not most people have European or some Asian ancestry without their reporting it. More and more racial groups are being connected.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-1.Genome-wide ancestry estimates of African Americans show average proportions of 73.2% African, 24.0% European, and 0.8% Native American ancestry. 2.Latinos encompass nearly all possible combinations of African, Native American, and European ancestries, with the exception of individuals who have a mix of African and Native American ancestry without European ancestry.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Genetic ancestry can be used to inform and provide insight on historical events that have occurred and can be used to get a deeper understanding of the culture and makeup of the United States. Many individuals with partial African and Native American ancestry have passed into the white community. Latinos carry 18% Native American ancestry, 65.1% European ancestry, and 6.% African ancestry.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<ol style="list-style-type: decimal">
-<li>Methods/techniques used for these kinds of research</li>
-</ol></li>
-<li>self-reported ancestry and genetic ancestry can differ greatly
-</td>
-</tr>
-</tbody>
-</table>
-</div></li>
-</ol>
 </div>
 
 
