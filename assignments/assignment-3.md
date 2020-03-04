@@ -12,7 +12,7 @@ In this assignment you will:
 This project consists of the entire 'result replication' as a single
 report and code artifact. You should put together the work from
 assignments 1 and 2, along with additional material from more recent
-work. You previous work should be considered a *rough draft* of the
+work. Your previous work should be considered a *rough draft* of the
 final work you are turning in for assignment 3.
 
 ### Part 1 (Report)
