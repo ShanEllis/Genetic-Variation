@@ -1,5 +1,19 @@
 # Genetic Variation
 
+## DSC180B
+
+## Domain Meetings
+
+* Group Meeting: Wed 10-11 AM
+* Individual Group Meetings: Fri 10-11 AM
+* Drop-In Office Hours: TBD
+
+- [wk1 slides](https://github.com/ShanEllis/Genetic-Variation/blob/master/DSC180B/01-DSC180B.pdf)
+
+---
+
+## DSC180A 
+
 What drives human genetic variation?
 
 |Week  | General Plan  | Readings   | 
@@ -15,11 +29,6 @@ What drives human genetic variation?
 | 09 | Impacts and Ethics  | [09_ethics](https://github.com/ShanEllis/Genetic-Variation/tree/master/09_ethics)    |
 | 10 | Proposals (Elevator Pitch  | NA   | 
 
-## Domain Hours (to replace Friday hours)
-* Wed 4-5 PM
-* Thurs 10:30-11:30 AM
-* Location: CSB 106
-
 ## Data
 
 There are many genetic datasets available from across the world. 
@@ -27,7 +36,8 @@ There are many genetic datasets available from across the world.
 - The project will primarily use [1000 Genomes Project](https://www.internationalgenome.org/) data
 - We will be replicating a result from [Genes Mirror Geography within Europe](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735096/)
 
-## Assignments
+## DSC 180 A Assignments
 
 - [Assignment 1 - The Data](https://github.com/ShanEllis/Genetic-Variation/blob/master/assignments/assignment-1.md) (Due Jan 24th, 11:59 PM)
 - [Assignment 2 - EDA](https://github.com/ShanEllis/Genetic-Variation/blob/master/assignments/assignment-2.md) (Due Feb 14th, 11:59 PM)
+- [Assignment 3 - Full Report](https://github.com/ShanEllis/Genetic-Variation/blob/master/assignments/assignment-3.md) (Due Mar 14th, 11:59 PM)
